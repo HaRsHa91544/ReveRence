@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,27 +13,36 @@
     <link rel="shortcut icon" href="logo.png" type="image/png">
     <link rel="stylesheet" href="style/index.css">
     <style>
-    *{
-        margin: 0;
-        padding: 0;
-    }
-    body{
-        background-color:#d8f5ff;
-    }
-    video{
-        width:100vw;
-        height: 100vh;
-    }</style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #d8f5ff;
+        }
+
+        video {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        header ul li:nth-child(5) {
+            border: none;
+            background-color: var(--blue);
+        }
+    </style>
 </head>
+
 <body>
     <header>
         <a href="index.html"><img src="img/logo1.png" alt="logo1" width="280"></a>
         <ul>
-            <li style="border: none;"><a href="index.html" style="color: white;">Home</a></li>
+            <li style="border: none;"><a href="index.html">Home</a></li>
             <li><a href="aboutUs.html">About Us</a></li>
             <li><a href="solutions.html">Solutions</a></li>
             <li><a href="blog.html">Blog</a></li>
-            <li><a href="contactUs.html">Contact Us</a></li>
+            <li><a href="contactUs.html" style="color: white;">Contact Us</a></li>
         </ul>
     </header>
     <video src="CONSTRUCTION.mp4" autoplay muted></video>
@@ -56,7 +66,7 @@
                         www.cfaogroup.com
                     </div>
                     <div>
-    
+
                         <p> Our address:</p>
                         57-59 Rue Yves Kermen,
                         92100 Boulogne-Billancourt, France
@@ -69,4 +79,5 @@
         </div>
     </footer>
 </body>
+
 </html>
