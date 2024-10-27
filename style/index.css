@@ -86,7 +86,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    animation: slide 50s cubic-bezier(0.86, -0.43, 0.47, 1.12) infinite;
+    animation: slide 30s cubic-bezier(0.86, -0.43, 0.47, 1.12) infinite;
 }
 
 .slider div {
@@ -211,7 +211,7 @@
     font-weight: 400;
 }
 
-.about div #btn1{
+.about div #btn1,.vision #btn1{
     color: var(--blue);
     background-color: white;
     border: 1px solid var(--blue);
@@ -222,19 +222,55 @@
     transition: all 0.3s ease-in-out;
 }
 
-.about div #btn1:hover{
+.about div #btn1:hover,.vision #btn1:hover{
     background-color: var(--blue);
     color: white;
     cursor: pointer;
 }
 
-.con2 p{
+.con2 p{    
+    border-radius: 2px;
     background-color: var(--blue);
-    padding: 10px;
+    padding: 10px 30px;
     font-size: 1.5rem;
     color: white;
 }
 
-.about div a{
+a{
     text-decoration: none;
+}
+
+.vision{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    height: 460px;
+    width: 100%;
+}
+
+.vpara{
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+}
+
+.vision h2{
+    color: var(--blue);
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.vision p{
+    font-size: 1.35rem;
+}
+.vimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 60%;
 }

@@ -46,16 +46,17 @@ header ul li{
     border-radius: 30px;
     z-index: 1000;
     transition: all 0.3s ease-in-out;
-    border: 2.5px solid transparent;
+    border: 2px solid transparent;
 }
 
 header ul li:hover{
     cursor: pointer;
-    border: 2.5px solid var(--blue);
+    border: 2px solid var(--blue);
+    box-shadow: 3px 3px 2px 1px rgba(224, 224, 224, 0.661);
 }
 
 header ul li:active{
-    border: 2.5px solid transparent;
+    border: 2px solid transparent;
     background-color: var(--blue);
 }
 
