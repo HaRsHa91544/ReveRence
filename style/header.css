@@ -1,13 +1,17 @@
 :root{
     --blue:hsl(196, 89%, 50%);
-    --lblue:hsl(195, 100%, 94%);
+    --lblue:hsl(195, 100%, 96%);
     --dblue:hsl(233, 82%, 22%);
 }
 
 body{
+    padding-top: 120px;
     max-width: 100dvw;
     width: 100%;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 *{
@@ -18,7 +22,7 @@ body{
 }
 
 header{
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 1000;
     display: grid;
@@ -28,8 +32,34 @@ header{
     height: 120px;
     background-color: white;
     box-shadow: 0px 1px 5px rgba(20, 3, 3, 0.887);
+    transition: all 0.5s cubic-bezier(0.2,0,0,1);
 }
 
+header.scrolled{
+    position: fixed;
+    top: 20px;
+    z-index: 1000;
+    display: grid;
+    grid-template-columns: 2fr auto;
+    align-content: center;
+    width: 80%;
+    height: 80px;
+    border-radius: 50px;
+    background-color: var(--lblue);
+    box-shadow: 0px 1px 5px rgba(20, 3, 3, 0.887);
+    transition: all 0.5s cubic-bezier(0.2,0,0,1);
+}
+
+header.scrolled img{
+    width: 170px;
+}
+
+header.scrolled ul{
+    font-size: 1rem;
+}
+header.scrolled ul li{
+    padding: 6px;
+}
 header ul{
     font-weight: 500;
     font-size: 1.15rem;
@@ -45,14 +75,14 @@ header ul li{
     text-align: center;
     border-radius: 30px;
     z-index: 1000;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
     border: 2px solid transparent;
 }
 
 header ul li:hover{
     cursor: pointer;
     border: 2px solid var(--blue);
-    box-shadow: 3px 3px 2px 1px rgba(224, 224, 224, 0.661);
+    box-shadow: 3px 3px 8px 1px rgba(224, 224, 224, 0.661);
 }
 
 header ul li:active{
@@ -72,5 +102,8 @@ header ul a{
 }
 
 header img{
-    margin-left: 20px;
+    width: 280px;
+    margin-left: 40px;
 }
+
+

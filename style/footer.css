@@ -75,35 +75,39 @@ footer{
 .social i{
     color: rgb(149, 149, 149);
     font-size: 1.9rem;
-    transition: all 0.3s ease-in;
+    transition: all 0.3s;
+    transition-timing-function:ease;
 }
 
 .social a{
-    margin-right: 20px;
+    width: 60px;
+    height: 60px;
 }
+
 .fa-brands.fa-facebook:hover{
-    font-size: 3rem;
-    color: rgb(23, 124, 255);
+    font-size: 2.8rem;
+    color: rgb(33, 129, 255);
+    padding-right: 20px;
 }
 
 .fa-brands.fa-instagram:hover{
-    font-size: 3rem;
+    font-size: 2.8rem;
     background: -webkit-linear-gradient(#ff29d8, #e4a216);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .fa-brands.fa-x-twitter:hover{
-    font-size: 3rem;
+    font-size: 2.8rem;
     color: black;
 }
 
 .fa-brands.fa-youtube:hover{
-    font-size: 3rem;
+    font-size: 2.8rem;
     color: rgb(255, 0, 0);
 }
 
 .fa-brands.fa-linkedin:hover{
-    font-size: 3rem;
+    font-size: 2.8rem;
     color: hsl(210, 95%, 43%);
 }

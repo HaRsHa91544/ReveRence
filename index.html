@@ -17,17 +17,20 @@
     <link rel="stylesheet" href="style/footer.css">
     <style>
         header ul li:nth-child(1) {
-            padding-top: 8px;
+            padding-top: 7px;
             border: 2.5px solid transparent;
             background-color: var(--blue);
             box-shadow: none;
+        }
+        header.scrolled ul li:nth-child(1){
+            padding-top: 6px;
         }
     </style>
 </head>
 
 <body>
     <header>
-        <a href="index.html" style="width:280px;"><img src="img/logo1.png" alt="logo1" width="280"></a>
+        <a href="index.html" style="width:200px;"><img src="img/logo1.png" alt="logo1"></a>
         <ul>
             <li><a href="index.html" style="color: white;">Home</a></li>
             <li><a href="aboutUs.html">About Us</a></li>
@@ -45,23 +48,23 @@
     <div class="contr">
         <div>
             <img src="img/1.png" alt="">
-            <h1>1.2</h1>
-            <h2>Lakhs in Revenue</h2>
+            <h1 id="rev"></h1>
+            <h4>Lakhs in Revenue</h4>
         </div>
         <div>
             <img src="img/2.png" alt="">
-            <h1>+500</h1>
-            <h2>Supplier laboratories</h2>
+            <h1 id="lab"></h1>
+            <h4>Supplier laboratories</h4>
         </div>
         <div>
             <img src="img/3.png" alt="">
-            <h1>+31000</h1>
-            <h2>Listed products</h2>
+            <h1 id="pro"></h1>
+            <h4>Listed products</h4>
         </div>
         <div>
             <img src="img/4.png" alt="">
-            <h1>+11000</h1>
-            <h2>Retail pharmacies daily delivervies</h2>
+            <h1 id="del"></h1>
+            <h4>Retail pharmacies daily delivervies</h4>
         </div>
     </div>
 
@@ -112,7 +115,7 @@
                         &#8599;</button></a>
         </div>
         <div class="con2">
-            <h3>120 Years</h3>
+            <h1>120 Years</h1>
             <p>Partnership with Sanofi in Nigeria</p>
             <a href="aboutUs.html"><button id="btn1">View more &#8599;</button></a>
         </div>
@@ -134,29 +137,68 @@
         </div>
     </div>
 
-    <div>
+    <div class="loc">
         <div>
             <h2>Our Locations:</h2>
-            <h3>CFAO Healthcare operates in 22 countries on the African continent</h3>
+            <h3>ReveRence Healthcare operates in 22 countries on the African continent</h3>
             <p>Also in Portugal, in Denmark, in Italy, in India, in China and in 6 French Overseas Territories.</p>
-            <button>Contact Us</button>
+            <a href="contactUs.html"><button id="btn1">Contact Us &#8599;</button></a>
         </div>
         <div>
-            <img src="" alt="">
+            <img src="img/india.png" alt="">
         </div>
     </div>
 
-    <div>
-        <h2>Lastest News: </h2>
-        <div>
+    <div class="blog">
+        <h2>Latest News: </h2>
+        <div class="post">
             <div>
-                <img src="img/c.jpg" alt="" width="200">
+                <img src="img/c.jpg" alt="">
+                <h3>ReveRence HealthCare</h3>
+                <a href="blog.html"><button id="btn1">Read More &#8599;</button></a>
             </div>
             <div>
-                <img src="img/c.jpg" alt="" width="200">
+                <img src="img/c.jpg" alt="">
+                <h3>ReveRence HealthCare</h3>
+                <a href="blog.html"><button id="btn1">Read More &#8599;</button></a>
             </div>
             <div>
-                <img src="img/c.jpg" alt="" width="200">
+                <img src="img/c.jpg" alt="">
+                <h3>ReveRence HealthCare</h3>
+                <a href="blog.html"><button id="btn1">Read More &#8599;</button></a>
+            </div>
+            <div>
+                <img src="img/c.jpg" alt="">
+                <h3>ReveRence HealthCare</h3>
+                <a href="blog.html"><button id="btn1">Read More &#8599;</button></a>
+            </div>
+            <div>
+                <img src="img/c.jpg" alt="">
+                <h3>ReveRence HealthCare</h3>
+                <a href="blog.html"><button id="btn1">Read More &#8599;</button></a>
+            </div>
+            <div>
+                <img src="img/c.jpg" alt="">
+                <h3>ReveRence HealthCare</h3>
+                <a href="blog.html"><button id="btn1">Read More &#8599;</button></a>
+            </div>
+            <div>
+                <img src="img/c.jpg" alt="">
+                <h3>ReveRence HealthCare</h3>
+                <a href="blog.html"><button id="btn1">Read More &#8599;</button></a>
+            </div>
+            <div>
+                <img src="img/c.jpg" alt="">
+                <h3>ReveRence HealthCare</h3>
+                <a href="blog.html"><button id="btn1">Read More &#8599;</button></a>
+            </div><div>
+                <img src="img/c.jpg" alt="">
+                <h3>ReveRence HealthCare</h3>
+                <a href="blog.html"><button id="btn1">Read More &#8599;</button></a>
+            </div><div>
+                <img src="img/c.jpg" alt="">
+                <h3>ReveRence HealthCare</h3>
+                <a href="blog.html"><button id="btn1">Read More &#8599;</button></a>
             </div>
         </div>
     </div>
@@ -188,16 +230,17 @@
                 <div class="social">
                     <h4>Our social media:</h4>
                     <div class="links">
-                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="http://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="http://www.x.com"><i class="fa-brands fa-x-twitter"></i></a>
-                        <a href="http://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
-                        <a href="http://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="http://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="http://www.x.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="http://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="http://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
+    <script src="script/script.js"></script>
 </body>
 
 </html>
