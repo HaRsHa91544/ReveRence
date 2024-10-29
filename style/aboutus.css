@@ -28,6 +28,7 @@
     margin-bottom: 10px;
 }
 .vis p{
+    font-weight: 300;
     font-size: 1.2rem;
 }
 .viss {
@@ -43,6 +44,7 @@
 .viss p{
     width: 60%;
     font-size: 1.2rem;
+    font-weight: 300;
     padding-left: 20px;
 }
 .side{
