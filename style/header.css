@@ -97,7 +97,7 @@ header ul li:active a{
 
 header ul a{
     padding: 12px 8px;
-    color: var(--dblue);
+    color: white;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
 }
