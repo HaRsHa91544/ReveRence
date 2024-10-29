@@ -78,7 +78,7 @@ header ul li{
     font-weight: 300;
     padding: 8px;
     text-align: center;
-    border-radius: 4px;
+    border-radius: 40px;
     z-index: 1000;
     transition: all 0.2s ease-in-out;
     border: 1px solid transparent;
@@ -96,6 +96,7 @@ header.scrolled ul li:hover{
     border: 1px solid var(--blue);
     box-shadow: 3px 3px 8px 1px rgba(224, 224, 224, 0.2);
 }
+
 header ul li:active{
     border: 1px solid var(--blue);
 }
