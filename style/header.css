@@ -1,7 +1,7 @@
 :root{
-    --blue:hsl(196, 89%, 50%);
+    --blue:hsl(129, 100%, 16%);
     --lblue:hsl(195, 100%, 96%);
-    --dblue:hsl(233, 82%, 22%);
+    --dblue:hsl(0, 0%, 0%);
 }
 
 body{
@@ -28,12 +28,13 @@ header{
     z-index: 1000;
     display: grid;
     grid-template-columns: 2fr auto;
-    align-content: center;    
-    background-color: rgba(0, 0, 0, 0.192);
+    align-content: center;
     width: 100%;
     height: 120px;
-    box-shadow: 0px 1px 5px rgba(20, 3, 3, 0.887);
-    transition: all 0.5s cubic-bezier(0.2,0,0,1);
+    background-color: rgba(105, 105, 105, 0.185);
+    backdrop-filter: blur(3px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.709);
+    transition: all 0.4s ease-in-out;
 }
 
 header.scrolled{
@@ -42,57 +43,61 @@ header.scrolled{
     top: 0px;
     z-index: 1000;
     display: grid;
-    grid-template-columns: 2fr auto;
+    grid-template-columns: 1fr auto;
     align-content: center;
     width: 100%;
     height: 80px;
     box-shadow: 0px 1px 5px rgba(20, 3, 3, 0.887);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 
 header.scrolled img{
-    width: 170px;
+    width: 200px;
 }
 
-header.scrolled ul{
-    font-size: 1rem;
+header.scrolled ul{ 
+    column-gap: 60px;
+    grid-template-columns: 80px 100px 100px 70px 118px;
+    font-size: 0.95rem;
 }
-header.scrolled ul li{
-    padding: 6px;
-}
+
 header ul{
     font-weight: 500;
     font-size: 1.15rem;
     display: grid;
     align-content: center;
     list-style-type: none;
-    grid-template-columns: 180px 180px 180px 180px 180px;
+    column-gap: 60px;
+    margin-right: 40px;
+    grid-template-columns: 100px 130px 130px 90px 130px;
 }
 
 header ul li{
-    color:white;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.3);
+    font-weight: 300;
     padding: 8px;
-    margin-right: 40px;
     text-align: center;
-    border-radius: 30px;
+    border-radius: 4px;
     z-index: 1000;
     transition: all 0.2s ease-in-out;
-    border: 2px solid transparent;
+    border: 1px solid transparent;
 }
 
-header.scrolled ul li{
-    color:var(--dblue);
-}    
-    
 header ul li:hover{
     cursor: pointer;
-    border: 2px solid var(--blue);
-    box-shadow: 3px 3px 8px 1px rgba(224, 224, 224, 0.661);
+    border: 1px solid transparent;
+    background-color: rgba(255, 255, 255, 0.552);
+    box-shadow: 3px 3px 8px 1px rgba(224, 224, 224, 0.2);
 }
 
+header.scrolled ul li:hover{
+    cursor: pointer;
+    border: 1px solid var(--blue);
+    box-shadow: 3px 3px 8px 1px rgba(224, 224, 224, 0.2);
+}
 header ul li:active{
-    border: 2px solid transparent;
-    background-color: var(--blue);
+    border: 1px solid var(--blue);
 }
 
 header ul li:active a{
@@ -100,12 +105,31 @@ header ul li:active a{
 }
 
 header ul a{
-    padding: 12px 8px;
     color: white;
     text-decoration: none;
-    transition: all 0.2s ease-in-out;
 }
 
+header.scrolled ul a{
+    color: var(--blue);
+}
+
+header.scrolled ul li{
+    padding: 5px;
+    border: 1px solid var(--blue);
+    height: min-content;
+}
+
+header.scrolled ul li:hover{
+    background-color: var(--blue);
+}
+
+header.scrolled ul li:active{
+    color: white;
+    background-color: var(--dblue);
+}
+header.scrolled ul li:hover a{
+    color: white;
+}
 header img{
     width: 280px;
     margin-left: 40px;

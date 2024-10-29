@@ -1,7 +1,7 @@
 function change(){
     var scrollValue=window.scrollY;
     var nav = document.querySelector('header');
-    if(scrollValue>400){
+    if(scrollValue>380){
         
         nav.classList.add('scrolled');
     }
