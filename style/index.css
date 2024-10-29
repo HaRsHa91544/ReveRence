@@ -1,139 +1,366 @@
-:root{
-    --blue:hsl(129, 100%, 16%);
-    --lblue:hsl(195, 100%, 96%);
-    --dblue:hsl(0, 0%, 0%);
+.vid {
+    margin-top: 0;
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
 }
 
-body{
-    position: relative;
-    padding-top: 0px;
-    max-width: 100dvw;
+.vid .head {
+    position: absolute;
+    z-index: 100;
+    color: white;
+    font-weight: 300;
+}
+
+.vid h2 {
+    font-size: 50px;
+    margin-bottom: 100px;
+    justify-self: flex-start;
+}
+
+.vid h3 {
+    margin-top: 100px;
+    font-weight: 100;
+    font-size: 35px;
+    justify-self: flex-end;
+}
+
+.vid video {
     width: 100%;
-    overflow-x: hidden;
+    height: 500px;
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(2.5);
+}
+
+.contr {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contr img {
+    transition: all 1000s ease-in-out;
+    width: 100px;
+}
+
+.contr div {
+    height: 65%;
+    padding-right: 30px;
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;    
+    border-right: 3px solid rgba(128, 128, 128, 0.295);
+}
+
+.contr div:nth-child(4) {
+    border: none;
+}
+
+.contr h1 {
+    transition: all 1000s ease-in-out;
+    color: var(--blue);
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+.contr h4 {
+    font-size: 1.05rem;
+    font-weight: 300;
+}
+
+.slide {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 430px;
+    width: 100%;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    animation: slide 30s cubic-bezier(0.86, -0.43, 0.47, 1.12) infinite;
+}
+
+.slider div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 450px;
+    margin-right: 40px;
+}
+
+.slider img {
+    border-radius: 7px;
+    transition: all 0.2s ease-in-out;
+    width: 400px;
+    border: 2px solid transparent;
+    min-width: 100%;
+}
+
+.slider:hover {
+    animation-play-state: paused;
+}
+
+.slider img:hover {
+    border: 3px solid var(--blue);
+    transform: scale(1.05);
+}
+
+.slider div h3 {
+    margin-top: 10px;
+    z-index: 100;
+    color: var(--blue);
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    10% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(-450px);
+    }
+
+    30% {
+        transform: translateX(-450px);
+    }
+
+    40% {
+        transform: translateX(-900px);
+    }
+
+    50% {
+        transform: translateX(-900px);
+    }
+
+    60% {
+        transform: translateX(-1350px);
+    }
+
+    70% {
+        transform: translateX(-1350px);
+    }
+
+    80% {
+        transform: translateX(-1800px);
+    }
+
+    90% {
+        transform: translateX(-1800px);
+    }
+
+    100% {
+        transform: translateX(-2250px);
+    }
+}
+
+.about{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    background-color: rgb(247, 247, 247);
+}
+
+.about div{
+    padding-left: 50px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
 }
 
-*{
-    font-family: 'poppins';
-    margin: 0;
-    padding: 0;
-    color: var(--dblue);
+.about .con2{
+    height: 70%;
+    width: 50%;
 }
 
-header{
-    position: absolute;
-    top: 0;
-    z-index: 1000;
-    display: grid;
-    grid-template-columns: 2fr auto;
-    align-content: center;
-    width: 100%;
-    height: 120px;
-    background-color: rgba(105, 105, 105, 0.185);
-    backdrop-filter: blur(3px);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.709);
-    transition: all 0.4s ease-in-out;
+.about div:first-child{
+    width: 35%;
 }
 
-header.scrolled{
-    position: fixed;
-    background-color: white;
-    top: 0px;
-    z-index: 1000;
-    display: grid;
-    grid-template-columns: 1fr auto;
-    align-content: center;
-    width: 100%;
-    height: 80px;
-    box-shadow: 0px 1px 5px rgba(20, 3, 3, 0.887);
-    transition: all 0.4s ease-in-out;
-}
-
-header.scrolled img{
-    width: 200px;
-}
-
-header.scrolled ul{ 
-    column-gap: 60px;
-    grid-template-columns: 80px 100px 100px 70px 118px;
-    font-size: 0.95rem;
-}
-
-header ul{
-    font-weight: 500;
-    font-size: 1.15rem;
-    display: grid;
-    align-content: center;
-    list-style-type: none;
-    column-gap: 60px;
-    margin-right: 40px;
-    grid-template-columns: 100px 130px 130px 90px 130px;
-}
-
-header ul li{
-    backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.3);
+.con2 h1{
+    color: var(--blue);
+    font-size: 4rem;
     font-weight: 300;
-    padding: 8px;
-    text-align: center;
+}
+
+.about div h2{
+    color: var(--blue);
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.about div .para{
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+#btn1{
+    color: var(--blue);
+    background-color: white;
+    border: 1px solid var(--blue);
+    font-size: 1rem;
+    display: flex;
+    padding: 10px 22px;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+#btn1:hover{
+    background-color: var(--blue);
+    color: white;
+    cursor: pointer;
+}
+
+.con2 p{    
     border-radius: 40px;
-    z-index: 1000;
-    transition: all 0.2s ease-in-out;
-    border: 1px solid transparent;
-}
-
-header ul li:hover{
-    cursor: pointer;
-    border: 1px solid transparent;
-    background-color: rgba(255, 255, 255, 0.552);
-    box-shadow: 3px 3px 8px 1px rgba(224, 224, 224, 0.2);
-}
-
-header.scrolled ul li:hover{
-    cursor: pointer;
-    border: 1px solid var(--blue);
-    box-shadow: 3px 3px 8px 1px rgba(224, 224, 224, 0.2);
-}
-
-header ul li:active{
-    border: 1px solid var(--blue);
-}
-
-header ul li:active a{
+    background-color: var(--blue);
+    padding: 10px 30px;
+    font-size: 1.5rem;
     color: white;
 }
 
-header ul a{
-    color: white;
+a{
     text-decoration: none;
 }
 
-header.scrolled ul a{
+.vision{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    height: 460px;
+    width: 100%;
+}
+
+.vpara{
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+}
+
+.vision h2{
+    color: var(--blue);
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.vision p{
+    font-size: 1.35rem;
+    font-weight: 300;
+}
+.vimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 60%;
+}
+
+.loc{
+    display: flex;
+    align-items: center;
+    height: 620px;
+    width: 100%;
+}
+
+.loc div:nth-child(1){
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-left: 60px;
+    height: 60%;
+    width: 50%;
+}
+
+.loc div:nth-child(2){
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+.loc h2{
+    font-size: 3rem;
+    font-weight: 400;
     color: var(--blue);
 }
 
-header.scrolled ul li{
-    padding: 5px;
-    border: 1px solid var(--blue);
-    height: min-content;
+.loc h3{
+    font-size: 2rem;
+    font-weight: 300;
 }
 
-header.scrolled ul li:hover{
-    background-color: var(--blue);
+.loc p{
+    font-size: 1.2rem;
+    color: rgb(91, 91, 91);
 }
 
-header.scrolled ul li:active{
-    color: white;
-    background-color: var(--dblue);
-}
-header.scrolled ul li:hover a{
-    color: white;
-}
-header img{
-    width: 280px;
-    margin-left: 40px;
+.blog{
+    display: flex;
+    flex-direction: column;
+    height:600px;
+    width: 100%;
+    justify-content: space-between;
 }
 
+.post{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    animation: slide 30s cubic-bezier(0.86, -0.43, 0.47, 1.12) infinite;
+}
+
+.post div{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: flex-start;
+    width: 100%;
+    height: 90%;
+    padding-right: 80px;
+}
+
+.post img{
+    width: 500px;
+}
+
+.blog h2{
+    padding-left: 50px;
+    font-size: 2.6rem;
+    color: var(--blue);
+    font-weight: 400;
+}
+
+.post div h3{
+    font-size: 1.5rem;
+    color: rgb(91, 91, 91);
+    font-weight: 450;
+}
 
