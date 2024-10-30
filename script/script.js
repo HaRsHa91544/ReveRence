@@ -8,9 +8,8 @@ function change() {
         nav.classList.add('scrolled');
         img.src='img/logo.png';
     } else if (scrollValue > 10) {
-        nav.style.top = '-100px'; // You can keep this if you want to hide the header while scrolling down
-        slog.style.opacity = '0'; // Ensure slog is visible when scrolling back up
-        nav.classList.remove('scrolled');
+        nav.style.top = '-70px'; 
+        slog.style.opacity = '0';
     } else {
         nav.style.top = '40px';
         slog.style.opacity = '1';

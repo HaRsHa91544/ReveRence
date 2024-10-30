@@ -259,7 +259,7 @@ a{
     justify-content: space-around;
     align-items: center;
     height: 100%;
-    width: 40%;
+    width: 50%;
 }
 
 .vision h2{
@@ -277,9 +277,10 @@ a{
     align-items: center;
     justify-content: center;
     height: 100%;
-    width: 60%;
+    width: 50%;
+}.vimg img{
+    border-radius: 7px;
 }
-
 .loc{
     display: flex;
     align-items: center;
