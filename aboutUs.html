@@ -14,17 +14,22 @@
     <title>ReveRence</title>
     <link rel="stylesheet" href="style/header.css">
     <link rel="shortcut icon" href="logo.png" type="image/png">
-    <link rel="stylesheet" href="style/index.css">
     <link rel="stylesheet" href="style/aboutus.css">
-    <link rel="stylesheet" href="style/footer.css">
     <style>
         header ul li:nth-child(2) {
+            pointer-events: none;
             border: 1px solid transparent;
             background-color: var(--blue);
             box-shadow: none;
         }
-        header.scrolled ul li:nth-child(2){
+
+        header.scrolled ul li:nth-child(2) {
+            background-color: var(--blue);
             padding: 6.5px;
+        }
+
+        header.scrolled ul li:nth-child(2) > a{
+            color: white;
         }
     </style>
 </head>
@@ -45,7 +50,7 @@
                 challenge in Africa. CFAO Healthcare continues to improve healthcare on the continent by producing and
                 distributing pharmaceutical and medical
                 products along with related services.</p>
-            </div>
+        </div>
     </div>
     <div class="side">
         <div class="viss">
@@ -62,8 +67,9 @@
             <img src="img/ab3.png" alt="">
         </div>
     </div>
-    <footer id="footer">   
+    <footer id="footer">
     </footer>
     <script src="script/script.js"></script>
 </body>
+
 </html>

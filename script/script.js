@@ -8,7 +8,7 @@ function change() {
         nav.classList.add('scrolled');
         img.src='img/logo.png';
     } else if (scrollValue > 10) {
-        nav.style.top = '-70px'; 
+        nav.style.top = '-100px'; 
         slog.style.opacity = '0';
     } else {
         nav.style.top = '40px';

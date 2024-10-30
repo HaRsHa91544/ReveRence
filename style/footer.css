@@ -53,6 +53,17 @@ footer{
     width: 30%;
 }
 
+.cas a{
+    font-size: 1.12rem;
+    font-weight: 300;
+    display: inline;
+    width: fit-content;
+    text-decoration: none;
+}
+
+.cas a:hover{
+    color: var(--blue);
+}
 .cas h4{
     color: var(--blue);
     font-size: 1.4rem;
@@ -77,19 +88,18 @@ footer{
 .social i{
     color: rgb(149, 149, 149);
     font-size: 1.9rem;
-    transition: all 0.3s;
-    transition-timing-function:ease;
+    width: 55px;
+    height: 55px;
+    transition: all 0.3s ease;
 }
 
 .social a{
-    width: 60px;
-    height: 60px;
+    width: fit-content;
 }
 
 .fa-brands.fa-facebook:hover{
     font-size: 2.8rem;
     color: rgb(33, 129, 255);
-    padding-right: 20px;
 }
 
 .fa-brands.fa-instagram:hover{

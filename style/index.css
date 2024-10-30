@@ -277,8 +277,9 @@ a{
     align-items: center;
     justify-content: center;
     height: 100%;
-    width: 50%;
-}.vimg img{
+    width: 50%;   
+}
+.vimg img{
     border-radius: 7px;
 }
 .loc{
@@ -350,6 +351,7 @@ a{
 }
 
 .post img{
+    border-radius: 7px;
     width: 500px;
 }
 

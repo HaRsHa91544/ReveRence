@@ -18,12 +18,18 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
     <style>
        header ul li:nth-child(1) {
+            pointer-events: none;
             border: 1px solid transparent;
             background-color: var(--blue);
-            box-shadow: none;
+            box-shadow: none;   
         }
         header.scrolled ul li:nth-child(1){
             padding: 5px;
+            background-color: var(--blue);
+            color: white; 
+        }
+        header.scrolled ul li:nth-child(1) > a{
+            color: white;
         }
     </style>
 </head>
