@@ -22,6 +22,12 @@ body{
     color: var(--dblue);
 }
 
+#navbar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .slogan{
     display: grid;
     align-content: center;
