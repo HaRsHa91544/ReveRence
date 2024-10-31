@@ -49,7 +49,7 @@
      display: flex;
      justify-content: flex-start;
      flex-direction: column;
-     padding-left: 40px;
+     padding-left: 110px;
  }
 
  .viss h2 {
@@ -72,11 +72,16 @@
      justify-content: space-evenly;
      margin-top: 100px;
      width: 100%;
+     height: 500px;
      margin-bottom: 50px;
  }
 
+ .v1{
+    width: 50%;
+    height: 100%;
+ }
  .v1 img {
-     height: 400px;
-     width: 600px;
-
+    border-radius: 7px;
+    box-shadow: 1px 9px 30px 10px rgba(128, 128, 128, 0.55);
+     width: 95%;
  }
