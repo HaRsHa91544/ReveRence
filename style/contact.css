@@ -1,35 +1,143 @@
-.p1 img{
+body {
+    height: 100dvh;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head h2{
+    margin-top: 10px;
+    font-size: 1.6rem;
+    font-weight: 350;
+}
+
+.contact {
     width: 100%;
-    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 140px;
 }
-.p1{
-    width: 50%;
-    height: 100%;
+
+.ihead{
+    top: 204px;
+    position: relative;
+    display: flex;
+    height: 260px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--blue);
 }
-.f1 {
-    width: 50%;
+.info {
+    border-radius: 20px;
+    position: absolute;
+    top: -100px;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.info div {
+    box-shadow: 1px 1px 3px 2px rgba(21, 21, 21, 0.315);
+    position: relative;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    font-weight: 370;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
-.f2{
-    width: 100%;
-    height: 700px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    background-color: white;
+    background-color: rgb(246, 246, 246);
+    text-align: center;
+    width: 350px;
+    height: 290px;
+    border-radius: 10px;
 }
 
-.t1 h1{
-    font-size: 4.5rem;
-    font-weight: 400;
+.fa-solid.fa-phone,.fa-solid.fa-link,.fa-solid.fa-location-dot{
+    background-color: var(--blue);
+    font-size: 2.1rem;
+    color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    position: absolute;
+    top: -30px;
+    display: grid;
+    align-content: center;
+}
+
+.info h2{
+    font-weight: 450;
+    color: var(--blue);
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+}
+
+.info a{
+    transition: all 0.4s ease-in-out;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.info a:hover{
     color: var(--blue);
 }
-.t2 p{
-    font-size: 1.3rem;
-    font-weight: 300;
-    margin-left: 110px;
+
+.info .icons{
+    box-shadow: none;
+    display: flex;
+    width: 80%;
+    height: 25%;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.info i{
+    color: rgb(83, 83, 83);
+    transition: all 0.3s ease;
+    font-size: 1.8rem;
+    margin-right: 20px;
+    box-shadow: none;
+}
+.head h1 {
+    color: var(--blue);
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.fa-brands.fa-facebook:hover{
+    font-size: 2.8rem;
+    color: rgb(33, 129, 255);
+}
+
+.fa-brands.fa-instagram:hover{
+    font-size: 2.8rem;
+    background: -webkit-linear-gradient(#ff29d8, #e4a216);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-brands.fa-x-twitter:hover{
+    font-size: 2.8rem;
+    color: black;
+}
+
+.fa-brands.fa-youtube:hover{
+    font-size: 2.8rem;
+    color: rgb(255, 0, 0);
+}
+
+.fa-brands.fa-linkedin:hover{
+    font-size: 2.8rem;
+    color: hsl(210, 95%, 43%);
 }
