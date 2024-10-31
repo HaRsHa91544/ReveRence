@@ -36,23 +36,31 @@
     font-size: 1.2rem;
 }
 .viss {
-    width: 880px;
+    width: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 40px;
 }
 .viss h2{
     font-size: 2.9rem;
     font-weight: 400;
     margin-bottom: 10px;
     color: var(--blue);
+    text-align: start;
 }
 .viss p{
     font-size: 1.2rem;
+    font-weight: 300;
     width: 690px;
 }
 .side{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 100px;
+    width: 100%;
     margin-bottom: 50px;
 }
 .v1 img{
