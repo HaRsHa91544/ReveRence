@@ -24,10 +24,9 @@
 
  .vis {
      padding: 50px;
-     padding-left: 95px;
+     padding-left: 60px;
      padding-right: 70px;
      padding-bottom: 70px;
-     margin: 15px;
  }
 
  .vis h2 {
@@ -49,7 +48,7 @@
      display: flex;
      justify-content: flex-start;
      flex-direction: column;
-     padding-left: 110px;
+     padding-left: 60px;
  }
 
  .viss h2 {
