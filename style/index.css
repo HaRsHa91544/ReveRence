@@ -57,7 +57,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    justify-content: center;    
+    justify-content: center;
     border-right: 3px solid rgba(128, 128, 128, 0.295);
 }
 
@@ -77,52 +77,116 @@
     font-weight: 300;
 }
 
-.slide {
+
+.container {
+    margin-top: 60px;
+    height: 450px;
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    height: 430px;
     width: 100%;
 }
 
-.slider {
+.card-wrapper {
+    max-width: 1250px;
+    border-radius: 30px;
+    margin: 0 60px 35px;
+    padding: 20px 10px;
+    overflow: hidden;
+    background-color: rgb(246, 246, 246);
+}
+
+.card-list {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    animation: slide 30s cubic-bezier(0.86, -0.43, 0.47, 1.12) infinite;
 }
 
-.slider div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 450px;
-    margin-right: 40px;
-}
-
-.slider img {
-    border-radius: 7px;
-    transition: all 0.2s ease-in-out;
+.card-list .card-item .card-link {
+    background-color: white;
     width: 400px;
-    border: 2px solid transparent;
-    min-width: 100%;
+    display: block;
+    padding: 18px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 10px rgb(0, 0, 0, 0.05);
+    border: 1.5px solid transparent;
+    transition: all 0.4s ease-in-out;
 }
 
-.slider:hover {
-    animation-play-state: paused;
+.card-item .card-link:hover {
+    border: 1.5px solid var(--blue);
 }
 
-.slider img:hover {
-    border: 3px solid var(--blue);
-    transform: scale(1.05);
+.card-item .card-link:hover button {
+    background-color: var(--blue);
+    color: white;
 }
 
-.slider div h3 {
-    margin-top: 10px;
-    z-index: 100;
+.card-link img {
+    aspect-ratio: 16/10;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-item {
+    margin-right: 100px;
+    list-style-type: none;
+}
+
+.card-item h3 {
+    transition: all 0.4s ease-in-out;
+    background-color: rgb(255, 255, 255);
     color: var(--blue);
-    font-size: 2rem;
-    font-weight: 500;
+    width: fit-content;
+    padding: 6px 12px;
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 1.05rem;
+}
+
+.card-link:hover h3 {
+    background-color: var(--blue);
+    color: rgb(255, 255, 255);
+}
+
+.card-item button {
+    display: grid;
+    align-content: center;
+    transition: all 0.4s ease-in-out;
+    width: 35px;
+    height: 35px;
+    font-size: 1.1rem;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid var(--blue);
+    background: none;
+    cursor: pointer;
+    margin: 10px 0px 5px;
+    transform: rotate(-45deg);
+}
+
+.card-link i {
+    transition: all 0.4s ease-in-out;
+    color: var(--blue);
+}
+
+.card-link:hover i {
+    color: white;
+}
+
+.card-wrapper .swiper-pagination-bullet{
+    background-color: var(--blue);
+    opacity: 0.5;
+    height: 13px;
+    width: 13px;
+}
+
+.card-wrapper .swiper-pagination-bullet-active{
+    opacity: 1;
+}
+
+.card-wrapper .swiper-slide-button{
+    color: var(--blue);
 }
 
 @keyframes slide {
@@ -171,16 +235,15 @@
     }
 }
 
-.about{
+.about {
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 500px;
-    background-color: rgb(247, 247, 247);
 }
 
-.about div{
+.about div {
     padding-left: 50px;
     height: 100%;
     display: flex;
@@ -189,33 +252,33 @@
     justify-content: space-evenly;
 }
 
-.about .con2{
+.about .con2 {
     height: 70%;
     width: 50%;
 }
 
-.about div:first-child{
+.about div:first-child {
     width: 35%;
 }
 
-.con2 h1{
+.con2 h1 {
     color: var(--blue);
     font-size: 4rem;
     font-weight: 300;
 }
 
-.about div h2{
+.about div h2 {
     color: var(--blue);
     font-size: 3rem;
     font-weight: 400;
 }
 
-.about div .para{
+.about div .para {
     font-size: 1.3rem;
     font-weight: 300;
 }
 
-#btn1{
+#btn1 {
     color: var(--blue);
     background-color: white;
     border: 1px solid var(--blue);
@@ -226,13 +289,13 @@
     transition: all 0.3s ease-in-out;
 }
 
-#btn1:hover{
+#btn1:hover {
     background-color: var(--blue);
     color: white;
     cursor: pointer;
 }
 
-.con2 p{    
+.con2 p {
     border-radius: 40px;
     background-color: var(--blue);
     padding: 10px 30px;
@@ -240,11 +303,13 @@
     color: white;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.vision{
+.vision {
+    margin-top: 40px;
+    background-color: rgb(247, 247, 247);
     padding-top: 30px;
     display: flex;
     align-items: center;
@@ -252,7 +317,7 @@ a{
     width: 100%;
 }
 
-.vpara{
+.vpara {
     padding-left: 60px;
     display: flex;
     flex-direction: column;
@@ -262,34 +327,38 @@ a{
     width: 50%;
 }
 
-.vision h2{
+.vision h2 {
     color: var(--blue);
     font-size: 3rem;
     font-weight: 400;
 }
 
-.vision p{
+.vision p {
     font-size: 1.35rem;
     font-weight: 300;
 }
-.vimg{
+
+.vimg {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
-    width: 50%;   
+    width: 50%;
 }
-.vimg img{
+
+.vimg img {
+    box-shadow: 1px 2px 10px 3px rgba(128, 128, 128, 0.325);
     border-radius: 7px;
 }
-.loc{
+
+.loc {
     display: flex;
     align-items: center;
     height: 620px;
     width: 100%;
 }
 
-.loc div:nth-child(1){
+.loc div:nth-child(1) {
     display: flex;
     align-items: flex-start;
     justify-content: space-evenly;
@@ -299,39 +368,40 @@ a{
     width: 50%;
 }
 
-.loc div:nth-child(2){
+.loc div:nth-child(2) {
     display: flex;
     width: 50%;
     height: 100%;
     align-items: center;
     justify-content: flex-end;
 }
-.loc h2{
+
+.loc h2 {
     font-size: 3rem;
     font-weight: 400;
     color: var(--blue);
 }
 
-.loc h3{
+.loc h3 {
     font-size: 2rem;
     font-weight: 300;
 }
 
-.loc p{
+.loc p {
     font-size: 1.2rem;
     font-weight: 300;
     color: rgb(91, 91, 91);
 }
 
-.blog{
+.blog {
     display: flex;
     flex-direction: column;
-    height:600px;
+    height: 600px;
     width: 100%;
     justify-content: space-between;
 }
 
-.post{
+.post {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -340,31 +410,30 @@ a{
     animation: slide 30s cubic-bezier(0.86, -0.43, 0.47, 1.12) infinite;
 }
 
-.post div{
+.post div {
     display: flex;
     flex-direction: column;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: flex-start;
     width: 100%;
     height: 90%;
     padding-right: 80px;
 }
 
-.post img{
+.post img {
     border-radius: 7px;
     width: 500px;
 }
 
-.blog h2{
+.blog h2 {
     padding-left: 50px;
     font-size: 2.6rem;
     color: var(--blue);
     font-weight: 400;
 }
 
-.post div h3{
+.post div h3 {
     font-size: 1.5rem;
     color: rgb(91, 91, 91);
     font-weight: 450;
 }
-
