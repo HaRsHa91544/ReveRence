@@ -11,24 +11,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ReveRence</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/index.css">
     <link rel="shortcut icon" href="logo.png" type="image/png">
     <link rel="stylesheet" href="style/footer.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <style>
-       header ul li:nth-child(1) {
+        header ul li:nth-child(1) {
             pointer-events: none;
             border: 1px solid transparent;
             background-color: var(--blue);
-            box-shadow: none;   
+            box-shadow: none;
         }
-        header.scrolled ul li:nth-child(1){
+
+        header.scrolled ul li:nth-child(1) {
             padding: 5px;
             background-color: var(--blue);
-            color: white; 
+            color: white;
         }
-        header.scrolled ul li:nth-child(1) > a{
+
+        header.scrolled ul li:nth-child(1)>a {
             color: white;
         }
     </style>
@@ -67,40 +70,41 @@
         </div>
     </div>
 
-    <div class="slide">
-        <div class="slider">
-            <div>
-                <img src="img/4m.jpg" alt="">
-                <h3>Pre WholeSale</h3>
-            </div>
-            <div>
-                <img src="img/c.jpg" alt="">
-                <h3>B2C/Retail</h3>
-            </div>
-            <div>
-                <img src="img/di.jpg" alt="">
-                <h3>Distribution and Promotion</h3>
-            </div>
-            <div>
-                <img src="img/pr.jpg" alt="">
-                <h3>Production</h3>
-            </div>
-            <div>
-                <img src="img/4m.jpg" alt="">
-                <h3>Pre WholeSale</h3>
-            </div>
-            <div>
-                <img src="img/c.jpg" alt="">
-                <h3>B2C/Retail</h3>
-            </div>
-            <div>
-                <img src="img/di.jpg" alt="">
-                <h3>Distribution and Promotion</h3>
-            </div>
-            <div>
-                <img src="img/pr.jpg" alt="">
-                <h3>Production</h3>
-            </div>
+    <div class="container swiper">
+        <div class="card-wrapper">
+            <ul class="card-list swiper-wrapper">
+                <li class="card-item swiper-slide">
+                    <a href="#" class="card-link">
+                        <img src="img/4m.jpg" alt="">
+                        <h3>Pre Wholesale</h3>
+                        <button><i class="fa-solid fa-arrow-right"></i></button>
+                    </a>
+                </li>
+                <li class="card-item swiper-slide">
+                    <a href="#" class="card-link">
+                        <img src="img/c.jpg" alt="">
+                        <h3>B2C / Retail</h3>
+                        <button><i class="fa-solid fa-arrow-right"></i></button>
+                    </a>
+                </li>
+                <li class="card-item swiper-slide">
+                    <a href="#" class="card-link">
+                        <img src="img/di.jpg" alt="">
+                        <h3>Distribution & Promotion</h3>
+                        <button><i class="fa-solid fa-arrow-right"></i></button>
+                    </a>
+                </li>
+                <li class="card-item swiper-slide">
+                    <a href="#" class="card-link">
+                        <img src="img/pr.jpg" alt="">
+                        <h3>Production</h3>
+                        <button><i class="fa-solid fa-arrow-right"></i></button>
+                    </a>
+                </li>
+            </ul>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-slide-button swiper-button-prev"></div>
+            <div class="swiper-slide-button swiper-button-next"></div>
         </div>
     </div>
 
@@ -190,11 +194,13 @@
                 <img src="img/c.jpg" alt="">
                 <h3>ReveRence HealthCare</h3>
                 <a href="blog.html"><button id="btn1">Read More &#8599;</button></a>
-            </div><div>
+            </div>
+            <div>
                 <img src="img/c.jpg" alt="">
                 <h3>ReveRence HealthCare</h3>
                 <a href="blog.html"><button id="btn1">Read More &#8599;</button></a>
-            </div><div>
+            </div>
+            <div>
                 <img src="img/c.jpg" alt="">
                 <h3>ReveRence HealthCare</h3>
                 <a href="blog.html"><button id="btn1">Read More &#8599;</button></a>
@@ -203,8 +209,10 @@
     </div>
 
     <footer id="footer">
-        
+
     </footer>
+    <script src="script/swiper.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script/script.js"></script>
 </body>
 
