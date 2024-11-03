@@ -44,7 +44,7 @@ body{
 header{
     position: fixed;
     top: 40px;
-    z-index: 100;
+    z-index: 1000;
     display: grid;
     grid-template-columns: 2fr auto;
     align-content: center;
@@ -93,7 +93,7 @@ header.scrolled{
     top: -100px;
     position: fixed;
     background-color: rgba(105, 105, 105, 0.185);
-    z-index: 100;
+    z-index: 1000;
     display: grid;
     grid-template-columns: 1fr auto;
     align-content: center;
