@@ -42,7 +42,7 @@ body{
 
 
 header{
-    position: absolute;
+    position: fixed;
     top: 40px;
     z-index: 100;
     display: grid;
@@ -92,7 +92,7 @@ header ul li:hover{
 header.scrolled{
     top: -100px;
     position: fixed;
-    background-color: white;
+    background-color: rgba(105, 105, 105, 0.185);
     z-index: 100;
     display: grid;
     grid-template-columns: 1fr auto;
