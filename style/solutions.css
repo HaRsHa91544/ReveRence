@@ -16,7 +16,7 @@ body {
     object-fit: cover;
     transform: rotate(180deg);
     transition: all 0.3s ease-out;
-    width: 145px;
+    width: 130px;
     opacity: 0.5;
 }
 
