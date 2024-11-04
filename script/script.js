@@ -3,7 +3,7 @@ function change() {
     var nav = document.querySelector('header');
     var slog = document.getElementById('slog');
     var img = document.getElementById('image');
-    if (scrollValue > 380) {
+    if (scrollValue > 390) {
         nav.style.top = '0px';
         nav.classList.add('scrolled');
         img.src='img/logo.png';
