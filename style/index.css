@@ -269,12 +269,12 @@
 
 .about div h2 {
     color: var(--blue);
-    font-size: 3rem;
+    font-size: 2.9rem;
     font-weight: 400;
 }
 
 .about div .para {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 300;
 }
 
@@ -299,7 +299,7 @@
     border-radius: 40px;
     background-color: var(--blue);
     padding: 10px 30px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: white;
 }
 
@@ -329,12 +329,12 @@ a {
 
 .vision h2 {
     color: var(--blue);
-    font-size: 3rem;
+    font-size: 2.9rem;
     font-weight: 400;
 }
 
 .vision p {
-    font-size: 1.35rem;
+    font-size: 1.2rem;
     font-weight: 300;
 }
 
@@ -377,13 +377,13 @@ a {
 }
 
 .loc h2 {
-    font-size: 3rem;
+    font-size: 2.9rem;
     font-weight: 400;
     color: var(--blue);
 }
 
 .loc h3 {
-    font-size: 2rem;
+    font-size: 2.9rem;
     font-weight: 300;
 }
 
@@ -428,7 +428,7 @@ a {
 
 .blog h2 {
     padding-left: 50px;
-    font-size: 2.6rem;
+    font-size: 2.9rem;
     color: var(--blue);
     font-weight: 400;
 }
