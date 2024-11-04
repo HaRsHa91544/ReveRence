@@ -9,51 +9,59 @@
         rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ReveRance</title>
+    <title>ReveRence</title>
     <link rel="shortcut icon" href="logo.png" type="image/png">
     <link rel="stylesheet" href="style/index.css">
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/footer.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://kit.fontawesome.com/0fccdfff4a.js" crossorigin="anonymous"></script>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            height: 100vh;
-            background-color: var(--blue);
-        }
-
-        video {
-            width: 95vw;
-            height: 100vh;
-        }
-
-        header ul li:nth-child(3) {
-            pointer-events: none;
-            border: 1px solid transparent;
-            background-color: var(--blue);
-            box-shadow: none;
-        }
-        header.scrolled ul li:nth-child(3){
-            padding-top: 5px;
-        }
-        header.scrolled ul li:nth-child(3) > a{
-            color: white;
-        }
-    </style>
+    <link rel="stylesheet" href="style/solutions.css">
 </head>
 
 <body>
     <div id="navbar">
     </div>
     <script src="script/foothead.js"></script>
-    <video src="CONSTRUCTION.mp4" autoplay muted></video>
+    <img src="img/sol.jpeg" alt="" id="simg">
+    <h1 id="bhead">Solutions</h1>
+    <div class="sol">
+        <input type="radio" name="slider" id="sol1" class="hidden" checked="">
+        <label for="sol1" class="box b1">
+            <h2>Marketing</h2>
+            <img src="img/4m.jpg" alt="" class="isol">
+            <img src="1.png" alt="" class="arrow">
+            <a href="#"><button class="btn1">View more &#8599;</button></a>
+            <h1>01</h1>
+        </label>
+        <input type="radio" name="slider" id="sol2" class="hidden">
+        <label for="sol2" class="box b2">
+            <h2 id="hs2">R & D</h2>
+            <img src="img/di.jpg" alt="" class="isol">
+            <img src="1.png" alt="" class="arrow">
+            <a href="#"><button class="btn1">View more &#8599;</button></a>
+            <h1>02</h1>
+        </label>
+        <input type="radio" name="slider" id="sol3" class="hidden">
+        <label for="sol3" class="box b3">
+            <h2>Production</h2>
+            <img src="img/pr.jpg" alt="" class="isol">
+            <img src="1.png" alt="" class="arrow">
+            <a href="#"><button class="btn1">View more &#8599;</button></a>
+            <h1>03</h1>
+        </label>
+        <input type="radio" name="slider" id="sol4" class="hidden" onclick="changeText(this)">
+        <label for="sol4" class="box b4">
+            <h2 id="hs4">PHCC</h2>
+            <img src="img/c.jpg" alt="" class="isol">
+            <img src="1.png" alt="" class="arrow">
+            <a href="#"><button class="btn1">View more &#8599;</button></a>
+            <h1>04</h1>
+        </label>
+    </div>
     <footer id="footer">   
     </footer>
     <script src="script/script.js"></script>
+    <script src="script/sol.js"></script>
 </body>
 </html>
