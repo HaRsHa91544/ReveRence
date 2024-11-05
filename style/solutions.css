@@ -17,7 +17,7 @@ body {
     transform: rotate(180deg);
     transition: all 0.3s ease-out;
     width: 130px;
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 #simg{
@@ -73,7 +73,7 @@ body {
     font-size: 2.3rem;
     color: white;
     writing-mode:vertical-rl;
-    opacity: 0.5;
+    opacity: 0.4;
     transform: rotate(180deg);
 }
 
@@ -96,7 +96,7 @@ body {
     align-items: center;
     justify-content: center;
     transition: all 0.4s ease-in-out;
-    opacity: 0.5;
+    opacity: 0.4;
     text-align: center;
     width: 100%;
     height: 15%;

@@ -310,10 +310,9 @@ a {
 .vision {
     margin-top: 40px;
     background-color: rgb(247, 247, 247);
-    padding-top: 30px;
     display: flex;
     align-items: center;
-    height: 460px;
+    height: 420px;
     width: 100%;
 }
 

@@ -18,7 +18,11 @@ function changeText(selectedRadio) {
         case 'sol4':
             hs2.textContent = 'R & D';
             hs4.textContent = 'Primary Health Care Centres';
-            break;   
+            break;  
+        case 'sol5':
+            hs2.textContent = 'R & D';
+            hs4.textContent = 'PHCC';
+            break;     
     }
 }
 
