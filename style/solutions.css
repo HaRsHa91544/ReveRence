@@ -12,13 +12,9 @@ body {
     height: 100vh;
 }
 
-header ul li:nth-child(3) >a{
-    pointer-events: none;
+header ul li:nth-child(3) >.links,header ul li:nth-child(3) >.links:hover{
     background-color: var(--blue);
     box-shadow: none;
-}
-
-header.scrolled ul li:nth-child(3) > a{
     color: white;
 }
 
@@ -26,6 +22,9 @@ header.scrolled ul li:nth-child(3) .fa-solid.fa-chevron-down{
     color: white;
 }
 
+header.scrolled ul li:nth-child(3) >.links,header.scrolled ul li:nth-child(3) >.links:hover{
+    color: white;
+}
 .arrow{
     object-fit: cover;
     transform: rotate(180deg);

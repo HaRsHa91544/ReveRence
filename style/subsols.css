@@ -1,10 +1,9 @@
-header .mul li:nth-child(3) >a{
-    pointer-events: none;
+header .mul li:nth-child(3) >.links{
     background-color: var(--blue);
     box-shadow: none;
 }
 
-header.scrolled .mul li:nth-child(3) > a{
+header.scrolled .mul li:nth-child(3) > .links{
     color: white;
 }
 

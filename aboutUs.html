@@ -15,16 +15,19 @@
     <link rel="shortcut icon" href="logo.png" type="image/png">
     <link rel="stylesheet" href="style/aboutus.css">
     <style>
-        header ul li:nth-child(2) >a{
-            pointer-events: none;
+        body{
+            height: 100dvh;
+        }
+        header ul li:nth-child(2) >.links,header ul li:nth-child(2) >.links:hover{
             background-color: var(--blue);
             box-shadow: none;
         }
 
-        header.scrolled ul li:nth-child(2) >a{
+        header.scrolled ul li:nth-child(2) >.links,header.scrolled ul li:nth-child(2) >.links:hover{
             background-color: var(--blue);
             color: white;
         }
+
         header.scrolled ul li:nth-child(2) .fa-solid.fa-chevron-down{
             color: white;
         }
