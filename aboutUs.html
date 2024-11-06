@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,19 +15,17 @@
     <link rel="shortcut icon" href="logo.png" type="image/png">
     <link rel="stylesheet" href="style/aboutus.css">
     <style>
-        header ul li:nth-child(2) {
+        header ul li:nth-child(2) >a{
             pointer-events: none;
-            border: 1px solid transparent;
             background-color: var(--blue);
             box-shadow: none;
         }
 
-        header.scrolled ul li:nth-child(2) {
+        header.scrolled ul li:nth-child(2) >a{
             background-color: var(--blue);
-            padding: 6.5px;
+            color: white;
         }
-
-        header.scrolled ul li:nth-child(2)>a {
+        header.scrolled ul li:nth-child(2) .fa-solid.fa-chevron-down{
             color: white;
         }
     </style>

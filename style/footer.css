@@ -5,18 +5,12 @@ footer{
     width: 100%;
 }
 
-.logo{
+.logof{
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content:space-between;
     flex-direction: column;
     width: 30%;
-}
-
-.logo h2{
-    font-size: 1.7rem;
-    font-weight: 500;
-    color: var(--blue);
 }
 
 .details{

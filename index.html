@@ -18,20 +18,16 @@
     <link rel="stylesheet" href="style/footer.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <style>
-        header ul li:nth-child(1) {
+        header ul li:nth-child(1)>.links {
             pointer-events: none;
             border: 1px solid transparent;
             background-color: var(--blue);
+            color: white;
             box-shadow: none;
         }
 
-        header.scrolled ul li:nth-child(1) {
-            padding: 5px;
+        header.scrolled ul li:nth-child(1)>.links {
             background-color: var(--blue);
-            color: white;
-        }
-
-        header.scrolled ul li:nth-child(1)>a {
             color: white;
         }
     </style>
