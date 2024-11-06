@@ -88,7 +88,7 @@
 }
 
 .card-wrapper {
-    max-width: 1250px;
+    max-width: 80%;
     border-radius: 30px;
     margin: 0 60px 35px;
     padding: 20px 10px;
@@ -274,7 +274,7 @@
 }
 
 .about div .para {
-    font-size: 1.2rem;
+    font-size: 1.18rem;
     font-weight: 300;
 }
 
@@ -312,6 +312,7 @@ a {
     background-color: rgb(247, 247, 247);
     display: flex;
     align-items: center;
+    justify-content: space-around;
     height: 420px;
     width: 100%;
 }
@@ -333,7 +334,7 @@ a {
 }
 
 .vision p {
-    font-size: 1.2rem;
+    font-size: 1.18rem;
     font-weight: 300;
 }
 

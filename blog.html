@@ -15,7 +15,31 @@
     <link rel="shortcut icon" href="logo.png" type="image/png">
     <link rel="stylesheet" href="style/index.css">
     <link rel="stylesheet" href="style/header.css">
-    <link rel="stylesheet" href="style/footer.css">  
+    <link rel="stylesheet" href="style/footer.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            height: 100vh;
+        }
+
+        body{
+            height: 100dvh;
+        }
+
+        header ul li:nth-child(4) >.links,header ul li:nth-child(4) >.links:hover{
+            background-color: var(--blue);
+            box-shadow: none;
+        }
+
+        header.scrolled ul li:nth-child(4) >.links,header.scrolled ul li:nth-child(4) >.links:hover{
+            background-color: var(--blue);
+            color: white;
+        }
+    </style>
 </head>
 
 <body>
