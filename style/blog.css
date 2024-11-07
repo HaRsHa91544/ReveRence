@@ -6,7 +6,7 @@
     height: 500px;
     object-fit: cover;    
 }
-h1{
+.ha{
     font-size: 2.9rem;
     color: var(--blue);
     text-align: center;
@@ -16,11 +16,11 @@ h1{
     
 }
  .p2 img{
-    width: 350px;
+    width: 450px;
     height: 200px;
  }
- .p2 h2,p{
-    width: 350px;
+ .p2 h2,.p2 p{
+    width: 500px;
  }
 
 /* .p1 p{
@@ -35,6 +35,9 @@ h1{
     flex-direction: column;
   this is for dates like 23 mar
 } */
+ .p1 {
+   align-self: flex-start;
+ }
  .f1{
     display: flex;
     justify-content: center;
@@ -44,10 +47,10 @@ h1{
  .f2{
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
     align-items: center;
     gap: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
  }
  .p2 h2{
       font-weight: 400;  
