@@ -4,16 +4,16 @@ body{
     flex-direction: column;
     justify-content: center;
 }
-header .mul li:nth-child(3) >.links{
+header .mul li:nth-child(2) >.links{
     background-color: var(--blue);
     box-shadow: none;
 }
 
-header.scrolled .mul li:nth-child(3) > .links{
+header.scrolled .mul li:nth-child(2) > .links{
     color: white;
 }
 
-header.scrolled ul li:nth-child(3) .fa-solid.fa-chevron-down{
+header.scrolled ul li:nth-child(2) .fa-solid.fa-chevron-down{
     color: white;
 }
 

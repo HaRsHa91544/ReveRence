@@ -1,3 +1,14 @@
+header .mul li:nth-child(4) >.links{
+   background-color: var(--blue);
+   box-shadow: none;
+}
+
+header.scrolled .mul li:nth-child(4) > .links{
+   color: white;
+   background-color: var(--blue);
+   box-shadow: none;
+}
+
 .img{
     width: 100%;
 }
