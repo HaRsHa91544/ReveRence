@@ -19,11 +19,7 @@ function changeText(selectedRadio) {
             hs2.textContent = 'R & D';
             hs4.textContent = 'Primary Health Care Centres';
             break;  
-        case 'sol5':
-            hs2.textContent = 'R & D';
-            hs4.textContent = 'PHCC';
-            break;     
-    }
+}
 }
 
 // Get all radio buttons and add event listeners

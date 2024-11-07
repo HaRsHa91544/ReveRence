@@ -66,7 +66,7 @@ header{
 
 header .mul{
     height: 100%;
-    width: 50%;
+    width: 60%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -208,7 +208,14 @@ a {
     -webkit-tap-highlight-color: transparent;
 }
 
-#dd{
+#ddsol,#ddsol1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#dd,#dd1{
     opacity: 0;
     visibility: hidden;
     display: flex;
@@ -218,14 +225,14 @@ a {
     position: absolute;
     top: 120px;
     width: 170px;
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(243, 243, 243);
     border-radius: 6px;
     z-index: 1000;
     transition: all 0.3s ease-in-out;
-    box-shadow: 3px 3px 8px 1px rgba(224, 224, 224, 0.2);
+    box-shadow: 1px 3px 10px 3px rgba(0, 0, 0, 0.202);
 }
 
-#dd a{
+#dd a,#dd1 a{
     text-decoration: none;
     text-align: center;
     font-weight: 300;
@@ -238,16 +245,14 @@ a {
     color: var(--blue);
 }
 
-#dd a:hover{
+#dd a:hover,#dd1 a:hover{
     background-color: var(--blue);
     color: white;
 }
 
-#ddsol{
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#dd a:active,#dd1 a:active{
+    background-color: #003107;
+    color: white;
 }
 
 #ddsol:hover #dd,#ddsol a:hover #dd{
@@ -255,14 +260,29 @@ a {
     visibility: visible;
 }
 
-header.scrolled #dd{
+#ddsol1:hover #dd1,#ddsol1 a:hover #dd1{
+    opacity: 1;
+    visibility: visible;
+}
+
+header.scrolled #dd,header.scrolled #dd1{
     top: 80px;
 }
 
-header .mul .links:hover .fa-solid.fa-chevron-down,header li:nth-child(3):hover .fa-solid.fa-chevron-down{
+header .mul .links:hover .fa-solid.fa-chevron-down,header li:nth-child(3):hover .fa-solid.fa-chevron-down,header li:nth-child(2):hover .fa-solid.fa-chevron-down{
     padding-right: 4px;
     padding-left: 0px;
     transform: rotate(180deg);
 }
+
+
+
+
+
+
+
+
+
+
 
 

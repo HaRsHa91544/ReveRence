@@ -31,7 +31,7 @@ window.onload = function () {
     let l = 0;
     const interval = setInterval(function () {
         if (i <= 1.2) {
-            rev.innerHTML = i.toFixed(1);
+            rev.innerHTML = `₹${i.toFixed(1)}`;
             i += 0.1;
         }
         else if (j <= 500) {
