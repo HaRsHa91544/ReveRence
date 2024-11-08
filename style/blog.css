@@ -1,6 +1,7 @@
 header .mul li:nth-child(4) >.links{
    background-color: var(--blue);
    box-shadow: none;
+   color: white;
 }
 
 header.scrolled .mul li:nth-child(4) > .links{
@@ -8,6 +9,12 @@ header.scrolled .mul li:nth-child(4) > .links{
    background-color: var(--blue);
    box-shadow: none;
 }
+
+header .mul li:nth-child(4) .fa-solid.fa-chevron-down{
+   color: white;
+}
+
+
 
 .img{
     width: 100%;

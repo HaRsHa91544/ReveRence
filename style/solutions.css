@@ -18,7 +18,7 @@ header ul li:nth-child(3) >.links,header ul li:nth-child(3) >.links:hover{
     color: white;
 }
 
-header.scrolled ul li:nth-child(3) .fa-solid.fa-chevron-down{
+header .mul li:nth-child(3) .fa-solid.fa-chevron-down{
     color: white;
 }
 

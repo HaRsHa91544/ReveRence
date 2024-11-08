@@ -1,10 +1,12 @@
 :root{
-    --blue:#00520c;
-    --lblue:hsl(195, 100%, 96%);
+    --blue:#1c575e;
+    --lblue:#fef9f1;
     --dblue:hsl(0, 0%, 0%);
 }
 
 body{
+    background-color: var(--lblue);
+    padding-top: 100px;
     position: relative;
     max-width: 100dvw;
     width: 100%;
@@ -26,10 +28,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 180px;
-    height: 180px;
+    width: 50%;
+    height: 130px;
     border-radius: 50%;
-    background-color: rgb(250, 250, 250);
+    background-color: rgb(252, 252, 252);
     margin-left: 40px;
 }
 
@@ -65,7 +67,7 @@ body{
     grid-template-columns: 90px 60px 60px;
     font-size: 1.3rem;
     font-weight: 500;
-    padding-left: 200px;
+    padding-left: 190px;
     background-color: var(--blue);
     width: 100%;
     height: 40px;
@@ -80,9 +82,8 @@ header{
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    height: 120px;
-    background-color: rgb(250, 250, 250);
-    backdrop-filter: blur(2px);
+    height: 80px;
+    background-color: rgb(252, 252, 252);
     transition: all 0.5s ease;
     box-shadow: 0px 1px 6px rgba(20, 3, 3, 0.887);
 }
@@ -95,7 +96,7 @@ header .mul{
     justify-content: space-around;
     list-style-type: none;
     font-weight: 500;
-    font-size: 1.15rem;    
+    font-size: 0.95rem;
 }
 
 header .mul li{
@@ -125,6 +126,7 @@ header .mul .links{
     font-weight: 300;
     text-align: center;
     border-radius: 30px;
+    height: min-content;
     z-index: 1000;
     transition: all 0.2s ease-in-out;
     border: 1px solid var(--blue);
@@ -132,9 +134,9 @@ header .mul .links{
 }
 
 header .mul .links:hover{
-    cursor: pointer;
-    border: 1px solid transparent;
-    background-color: rgba(255, 255, 255, 0.552);
+    box-shadow: 3px 3px 8px 1px rgba(224, 224, 224, 0.2);
+    color: white;
+    background-color: var(--blue);
     box-shadow: 3px 3px 8px 1px rgba(224, 224, 224, 0.2);
 }
 
@@ -150,41 +152,13 @@ header.scrolled{
     transition: all 0.5s ease;
 }
 
-header.scrolled img{
-    width: 200px;
-}
 
-header.scrolled #logomaa{
-    justify-content: center;
-    width: 15%;
-}
 
-header.scrolled #llloo{
-    width: 120px;
-    height: 120px;
-}
-
-header.scrolled #llloo img{
-    width: 60px;
-}
-
-header.scrolled .logo{
-    justify-self: flex-start;
-    align-self: flex-start;
-    margin-left: 0px;
-    width: 20%;
-}
-header.scrolled .logo img{
-    display: flex;
-    justify-self: start;
-    width:160px;
-}
 
 header.scrolled .mul{ 
     height: 100%;
     display: flex;
     align-items: center;
-    font-size: 0.95rem;
 }
 
 header.scrolled .mul li{
@@ -215,11 +189,6 @@ header.scrolled .mul .links:active{
     background-color: var(--dblue);
 }
 
-header.scrolled .logo{
-    width: 12%;
-    margin-left: 50px;
-}
-
 header img{
     width: 280px;
 }
@@ -242,7 +211,7 @@ header.scrolled .fa-solid.fa-chevron-down{
     color: var(--blue);
 }
 
-header.scrolled .links:hover .fa-solid.fa-chevron-down{
+header .links:hover .fa-solid.fa-chevron-down{
     color: white;
 }
 
@@ -278,9 +247,9 @@ a {
     align-items: center;
     justify-content: space-between;
     position: absolute;
-    top: 120px;
+    top: 80px;
     width: 170px;
-    background-color: rgb(243, 243, 243);
+    background-color: white;
     border-radius: 6px;
     z-index: 1000;
     transition: all 0.3s ease-in-out;
