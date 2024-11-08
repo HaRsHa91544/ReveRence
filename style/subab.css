@@ -7,13 +7,14 @@ body{
 header .mul li:nth-child(2) >.links{
     background-color: var(--blue);
     box-shadow: none;
+    color: white;
 }
 
 header.scrolled .mul li:nth-child(2) > .links{
     color: white;
 }
 
-header.scrolled ul li:nth-child(2) .fa-solid.fa-chevron-down{
+header ul li:nth-child(2) .fa-solid.fa-chevron-down{
     color: white;
 }
 

@@ -94,7 +94,7 @@
     margin: 0 60px 35px;
     padding: 20px 10px;
     overflow: hidden;
-    background-color: rgb(255, 242, 220);
+    background-color: rgb(253, 253, 253);
 }
 
 .card-list {
@@ -311,7 +311,7 @@ a {
 
 .vision {
     margin-top: 40px;
-    background-color: rgb(255, 242, 220);
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-around;
