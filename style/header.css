@@ -1,7 +1,17 @@
 :root{
-    --blue:#1c575e;
+    --blue:#0f5d66;
     --lblue:#fef9f1;
     --dblue:#82450f;
+}
+
+@font-face {
+    font-family: 'Ivymode';
+    src: url('ivy-mode-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'avenir';
+    src: url('AvenirLTStd-Book.otf');
 }
 
 body{
@@ -17,7 +27,9 @@ body{
 }
 
 *{
-    font-family: 'poppins';
+    letter-spacing: 1px;
+    font-family:'avenir';
+    font-weight:900;
     margin: 0;
     padding: 0;
     color: black;
@@ -28,15 +40,15 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
-    height: 130px;
+    width: 40%;
+    height: 160%;
     border-radius: 50%;
     background-color: rgb(252, 252, 252);
     margin-left: 40px;
 }
 
 #llloo img{
-    width: 90px;
+    width: 110px;
 }
 
 #navbar{
@@ -70,7 +82,6 @@ body{
     align-content: center;
     grid-template-columns: 90px 60px 60px;
     font-size: 1.3rem;
-    font-weight: 500;
     padding-left: 180px;
     background-color: var(--blue);
     width: 100%;
@@ -78,6 +89,10 @@ body{
     z-index: 10000;
 }
 
+.slogan span{
+    font-weight: 500;
+    font-family: 'Ivymode';
+}
 header{
     top: 40px;
     position: fixed;
@@ -120,11 +135,13 @@ header #logomaa{
 }
 
 header .mul .links{
+    font-family:'avenir';
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--blue);
-    padding: 5px 15px;
+    padding: 7px 10px;
+    font-size: 1rem;
     backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.3);
     font-weight: 300;
@@ -175,7 +192,7 @@ header.scrolled .mul li{
 header.scrolled .mul .links{
     display: flex;
     align-items: center;
-    padding: 5px 15px;
+    padding: 7px 10px;
     justify-content: center;
     color: var(--blue);
     border: 1px solid var(--blue);
