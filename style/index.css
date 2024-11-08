@@ -1,4 +1,5 @@
 
+
 .vid {
     margin-top: 0;
     display: flex;
@@ -17,12 +18,14 @@
 }
 
 .vid h2 {
+    font-family: 'Ivymode';
     font-size: 50px;
     margin-bottom: 100px;
     justify-self: flex-start;
 }
 
 .vid h3 {
+    font-family: 'Ivymode';
     margin-top: 100px;
     font-weight: 100;
     font-size: 35px;
@@ -67,6 +70,7 @@
 }
 
 .contr h1 {
+    font-family: 'Ivymode';
     transition: all 1000s ease-in-out;
     color: var(--blue);
     font-size: 4rem;
@@ -86,6 +90,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    background-color: rgb(253, 253, 253);
 }
 
 .card-wrapper {
@@ -94,7 +99,6 @@
     margin: 0 60px 35px;
     padding: 20px 10px;
     overflow: hidden;
-    background-color: rgb(253, 253, 253);
 }
 
 .card-list {
@@ -264,12 +268,14 @@
 }
 
 .con2 h1 {
+    font-family: 'Ivymode';
     color: var(--blue);
     font-size: 4rem;
     font-weight: 300;
 }
 
 .about div h2 {
+    font-family: 'Ivymode';
     color: var(--blue);
     font-size: 2.9rem;
     font-weight: 400;
@@ -330,6 +336,7 @@ a {
 }
 
 .vision h2 {
+    font-family: 'Ivymode';
     color: var(--blue);
     font-size: 2.9rem;
     font-weight: 400;
@@ -379,6 +386,7 @@ a {
 }
 
 .loc h2 {
+    font-family: 'Ivymode';
     font-size: 2.9rem;
     font-weight: 400;
     color: var(--blue);
@@ -396,6 +404,7 @@ a {
 }
 
 .blog {
+    background-color: rgb(253, 253, 253);
     display: flex;
     flex-direction: column;
     height: 600px;
@@ -429,6 +438,8 @@ a {
 }
 
 .blog h2 {
+    font-family: 'Ivymode';
+    margin-top: 30px;
     padding-left: 50px;
     font-size: 2.9rem;
     color: var(--blue);

@@ -1,6 +1,6 @@
 footer{
     display: flex;
-    background-color: white;
+    background-color: var(--lblue);
     height: 350px;
     width: 100%;
 }
