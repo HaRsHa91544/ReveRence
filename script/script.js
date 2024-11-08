@@ -4,17 +4,13 @@ function change() {
     var slog = document.getElementById('slog');
     var img = document.getElementById('image');
     if (scrollValue > 390) {
-        nav.style.top = '0px';
+        nav.style.top = '40px';
         nav.classList.add('scrolled');
-        img.src='img/logo.png';
     } else if (scrollValue > 10) {
-        nav.style.top = '0px'; 
-        slog.style.opacity = '0';
+        nav.style.top = '40px'; 
     } else {
         nav.style.top = '40px';
-        slog.style.opacity = '1';
         nav.classList.remove('scrolled');
-        img.src='img/logo2.png';
     }
 }
 window.addEventListener('scroll', change);

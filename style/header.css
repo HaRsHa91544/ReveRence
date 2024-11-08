@@ -21,6 +21,22 @@ body{
     color: var(--dblue);
 }
 
+#llloo{
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: rgb(250, 250, 250);
+    margin-left: 40px;
+}
+
+#llloo img{
+    width: 90px;
+}
+
 #navbar{
     width: 100%;
     display: flex;
@@ -31,19 +47,26 @@ body{
 .logo{
     display: flex;
     align-items: center;
-    margin-left: 30px;
-    width: 20%;
+    justify-content: flex-start;
+    margin-left: 0px;
+    width: 24%;
     height: 100%;
 }
 
+.logo img{
+    width: 200px;
+}
+
 .slogan{
+    position: fixed;
+    top: 0;
     display: grid;
     align-content: center;
     grid-template-columns: 90px 60px 60px;
     font-size: 1.3rem;
     font-weight: 500;
-    padding-left: 70px;
-    background-color: rgb(250, 248, 248);
+    padding-left: 200px;
+    background-color: var(--blue);
     width: 100%;
     height: 40px;
     z-index: 10000;
@@ -58,7 +81,7 @@ header{
     justify-content: space-between;
     width: 100%;
     height: 120px;
-    background-color: rgba(205, 204, 204, 0.185);
+    background-color: rgb(250, 250, 250);
     backdrop-filter: blur(2px);
     transition: all 0.5s ease;
     box-shadow: 0px 1px 6px rgba(20, 3, 3, 0.887);
@@ -83,11 +106,19 @@ header .mul li{
     height: 100%;
 }
 
+header #logomaa{
+    align-items: center;
+    display: flex;
+    width: 18%;
+    height: 100%;
+    justify-content: space-between;
+}
+
 header .mul .links{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: var(--blue);
     padding: 5px 15px;
     backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.3);
@@ -96,7 +127,7 @@ header .mul .links{
     border-radius: 30px;
     z-index: 1000;
     transition: all 0.2s ease-in-out;
-    border: 1px solid transparent;
+    border: 1px solid var(--blue);
     text-decoration: none;
 }
 
@@ -109,14 +140,13 @@ header .mul .links:hover{
 
 header.scrolled{
     position: fixed;
-    background-color: white;
-    z-index: 1000;
+    z-index: 10000;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     height: 80px;
-    box-shadow: 0px 1px 5px rgba(20, 3, 3, 0.887);
+    box-shadow: 0px 0.1px 5px rgba(0, 0, 0, 0.527);
     transition: all 0.5s ease;
 }
 
@@ -124,6 +154,31 @@ header.scrolled img{
     width: 200px;
 }
 
+header.scrolled #logomaa{
+    justify-content: center;
+    width: 15%;
+}
+
+header.scrolled #llloo{
+    width: 120px;
+    height: 120px;
+}
+
+header.scrolled #llloo img{
+    width: 60px;
+}
+
+header.scrolled .logo{
+    justify-self: flex-start;
+    align-self: flex-start;
+    margin-left: 0px;
+    width: 20%;
+}
+header.scrolled .logo img{
+    display: flex;
+    justify-self: start;
+    width:160px;
+}
 
 header.scrolled .mul{ 
     height: 100%;
@@ -180,7 +235,7 @@ header .mul .links:active{
     transition: all 0.4s ease-in-out;
     padding-left: 4px;
     font-size: 0.9rem;
-    color: white;
+    color:var(--blue);
 }
 
 header.scrolled .fa-solid.fa-chevron-down{
