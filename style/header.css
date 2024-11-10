@@ -1,5 +1,5 @@
 :root{
-    --blue:#0f5d66;
+    --blue:#02717e;
     --lblue:#fef9f1;
     --dblue:#82450f;
 }
@@ -16,7 +16,7 @@
 
 body{
     background-color: var(--lblue);
-    padding-top: 100px;
+    padding-top: 120px;
     position: relative;
     max-width: 100dvw;
     width: 100%;
@@ -40,8 +40,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40%;
-    height: 160%;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
     background-color: rgb(252, 252, 252);
     margin-left: 40px;
@@ -109,10 +109,10 @@ header{
 
 header .mul{
     height: 100%;
-    width: 60%;
+    width: 30%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     list-style-type: none;
     font-weight: 500;
     font-size: 0.95rem;
@@ -142,85 +142,29 @@ header .mul .links{
     color: var(--blue);
     padding: 7px 10px;
     font-size: 1rem;
-    backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.3);
     font-weight: 300;
     text-align: center;
     border-radius: 30px;
     height: min-content;
     z-index: 1000;
     transition: all 0.2s ease-in-out;
-    border: 1px solid var(--blue);
+    border: none;
     text-decoration: none;
 }
 
+header .mul li:hover .fa-solid.fa-chevron-down{
+    padding-right: 4px;
+    padding-left: 0;
+    transform: rotate(180deg);
+}
+
+
 header .mul .links:hover{
-    box-shadow: 3px 3px 8px 1px rgba(224, 224, 224, 0.2);
-    color: white;
-    background-color: var(--blue);
-    box-shadow: 3px 3px 8px 1px rgba(224, 224, 224, 0.2);
-}
-
-header.scrolled{
-    position: fixed;
-    z-index: 10000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: 80px;
-    box-shadow: 0px 0.1px 5px rgba(0, 0, 0, 0.527);
-    transition: all 0.5s ease;
-}
-
-
-
-
-header.scrolled .mul{ 
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-
-header.scrolled .mul li{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-header.scrolled .mul .links{
-    display: flex;
-    align-items: center;
-    padding: 7px 10px;
-    justify-content: center;
-    color: var(--blue);
-    border: 1px solid var(--blue);
-    height: min-content;
-}
-
-header.scrolled .mul .links:hover{
-    box-shadow: 3px 3px 8px 1px rgba(224, 224, 224, 0.2);
-    color: white;
-    background-color: var(--blue);
+    color:var(--blue);
 }
 
 header .mul .links:active{
-    color: white;
-    border: 1px solid var(--blue);
-    background-color: #002731;
-}
-
-header img{
-    width: 280px;
-}
-
-
-header .mul .links:active{
-    background-color: #002731;
-    border: 1px solid var(--blue);
-    color: white;
-
+    color: black;
 }
 
 .fa-solid.fa-chevron-down{
@@ -228,18 +172,6 @@ header .mul .links:active{
     padding-left: 4px;
     font-size: 0.9rem;
     color:var(--blue);
-}
-
-header.scrolled .fa-solid.fa-chevron-down{
-    color: var(--blue);
-}
-
-header .links:hover .fa-solid.fa-chevron-down{
-    color: white;
-}
-
-header.scrolled .fa-solid.fa-chevron-down{
-    color: var(--blue);
 }
 
 ::selection{
@@ -273,7 +205,7 @@ a {
     top: 80px;
     width: 170px;
     background-color: white;
-    border-radius: 6px;
+    border-radius: 1px;
     z-index: 1000;
     transition: all 0.3s ease-in-out;
     box-shadow: 1px 3px 10px 3px rgba(0, 0, 0, 0.202);
@@ -284,11 +216,12 @@ a {
     text-align: center;
     font-weight: 300;
     display: block;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
     box-sizing: border-box;
     width: 100%;
-    padding: 7px 5px;
-    border-radius: 6px;
+    padding: 13px 9px;
+    font-size: 1rem;
+    border-radius: 1px;
     color: var(--blue);
 }
 

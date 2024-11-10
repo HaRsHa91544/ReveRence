@@ -1,20 +1,7 @@
-header .mul li:nth-child(4) >.links{
+#dd1 a:nth-child(2) {
    background-color: var(--blue);
-   box-shadow: none;
    color: white;
 }
-
-header.scrolled .mul li:nth-child(4) > .links{
-   color: white;
-   background-color: var(--blue);
-   box-shadow: none;
-}
-
-header .mul li:nth-child(4) .fa-solid.fa-chevron-down{
-   color: white;
-}
-
-
 
 .img{
     width: 100%;
@@ -96,7 +83,3 @@ header .mul li:nth-child(4) .fa-solid.fa-chevron-down{
  .p2 a h2:hover{
     color: var(--blue);
  }
-
-.hs{
-   text-decoration: none;
-}

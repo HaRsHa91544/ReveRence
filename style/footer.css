@@ -1,6 +1,6 @@
 footer{
     display: flex;
-    background-color: var(--dblue);
+    background-color: var(--lblue);
     height: 350px;
     width: 100%;
 }
@@ -29,9 +29,7 @@ footer{
     flex-direction: row;
     padding-left: 80px;
 }
-.details #dpara p{
-    color: white;
-}
+
 .details #dpara{
     font-weight: 300;
     padding: 40px;
@@ -41,12 +39,6 @@ footer{
 .cas p{
     font-weight: 300;
     font-size: 1.1rem;
-}
-.cas .add p{
-    color: white;
-}
-.cas .cont a{
-    color: white;
 }
 .cas .cont,.cas .add{
     display: flex;
@@ -68,7 +60,7 @@ footer{
     color: var(--blue);
 }
 .cas h4{
-    color: var(--lblue);
+    color: var(--blue);
     font-size: 1.4rem;
     font-weight: 600;
 }

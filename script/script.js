@@ -1,4 +1,4 @@
-function change() {
+/*function change() {
     var scrollValue = window.scrollY;
     var nav = document.querySelector('header');
     var slog = document.getElementById('slog');
@@ -13,7 +13,7 @@ function change() {
         nav.classList.remove('scrolled');
     }
 }
-window.addEventListener('scroll', change);
+window.addEventListener('scroll', change);*/
 
 
 window.onload = function () {
