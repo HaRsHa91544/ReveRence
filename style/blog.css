@@ -86,3 +86,7 @@ a{
  .p2 a h2:hover{
     color: var(--blue);
  }
+
+.ig{
+   width: 465px;
+}
