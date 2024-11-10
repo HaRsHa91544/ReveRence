@@ -28,6 +28,9 @@
     width: 500px;
  }
 
+a{
+   text-decoration: none;
+}
 /* .p1 p{
     background-color: var(--blue);
     height: 30px;
