@@ -1,6 +1,4 @@
-body {
-    height: 100dvh;
-}
+
 
 #simg{
     width: 100%;
@@ -14,8 +12,9 @@ body {
 }
 
 .head h2{
-    margin-top: 10px;
-    font-size: 1.6rem;
+    font-family: 'ivymode';
+    margin-top: 0px;
+    font-size: 2rem;
     font-weight: 350;
 }
 
@@ -29,7 +28,7 @@ body {
 }
 
 .ihead{
-    top: 204px;
+    top: 244px;
     position: relative;
     display: flex;
     height: 260px;
@@ -80,6 +79,7 @@ body {
 }
 
 .info h2{
+    font-family: 'ivymode';
     font-weight: 450;
     color: var(--blue);
     margin-bottom: 20px;
@@ -87,6 +87,7 @@ body {
 }
 
 .info a{
+    font-weight: 300;
     transition: all 0.4s ease-in-out;
     font-size: 1.3rem;
     margin-bottom: 10px;
@@ -115,6 +116,7 @@ body {
     box-shadow: none;
 }
 .head h1 {
+    font-family: 'ivymode';
     color: var(--blue);
     font-size: 3rem;
     font-weight: 400;
@@ -146,3 +148,19 @@ body {
     font-size: 2.8rem;
     color: hsl(210, 95%, 43%);
 }
+
+.main{
+    width: 100%;
+    position: relative;
+}
+
+.mm{
+    font-family: 'ivymode';
+    position: absolute;
+    top: 160px;
+    right: 520px;
+    font-size: 90px;
+    color: white;
+}
+
+

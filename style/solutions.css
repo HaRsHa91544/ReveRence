@@ -9,7 +9,6 @@ body {
     align-items: center;
     justify-content: space-evenly;
     width: 100vw;
-    height: 100vh;
 }
 
 header ul li:nth-child(3) >.links,header ul li:nth-child(3) >.links:hover{
@@ -42,9 +41,9 @@ header.scrolled ul li:nth-child(3) >.links,header.scrolled ul li:nth-child(3) >.
 #bhead{
     padding-top: 100px;
     text-align: center;
-    color: var(--blue);
+    color: white;
     width: 100%;
-    font-size: 3rem;
+    font-size: 7rem;
     font-weight: 400;
 }
 
@@ -74,6 +73,7 @@ header.scrolled ul li:nth-child(3) >.links,header.scrolled ul li:nth-child(3) >.
 }
 
 .box h2{
+    font-family: 'ivymode';
     padding-top: 40px;
     transition: all 0.3s ease;
     width: 80%;
@@ -103,6 +103,7 @@ header.scrolled ul li:nth-child(3) >.links,header.scrolled ul li:nth-child(3) >.
 }
 
 .box h1{
+    font-family: 'ivymode';
     display: flex;
     align-items: center;
     justify-content: center;
@@ -135,7 +136,7 @@ header.scrolled ul li:nth-child(3) >.links,header.scrolled ul li:nth-child(3) >.
     border: 1px solid var(--blue);
     font-size: 1rem;
     display: flex;
-    padding: 10px 22px;
+    padding: 14px 24px;
     border-radius: 30px;
     transition: all 0.3s ease-in-out;
     opacity: 0;
@@ -195,10 +196,28 @@ header.scrolled ul li:nth-child(3) >.links,header.scrolled ul li:nth-child(3) >.
 
 .hidden:checked + .box ul{
     font-size: 1.2rem;
-    font-weight: 300;
     display: block;
     padding: 30px 0px 30px 0px;
+}
+
+.hidden:checked + .box ul li{
+    font-weight: 300;
 }
 .hidden{
     display: none;
 }
+
+.bb{
+    position: relative;
+    width: 100%;
+}
+
+#bhead{
+    position: absolute;
+    top: 80px;
+}
+
+h1{
+    font-family: "ivymode";
+}
+

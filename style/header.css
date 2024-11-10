@@ -1,6 +1,6 @@
 :root{
     --blue:#02717e;
-    --lblue:#fef9f1;
+    --lblue:#fbf2e5;
     --dblue:#82450f;
 }
 
@@ -40,15 +40,15 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 130px;
-    height: 130px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
-    background-color: rgb(252, 252, 252);
+    background-color: var(--blue);
     margin-left: 40px;
 }
 
 #llloo img{
-    width: 110px;
+    width: 90px;
 }
 
 #navbar{
@@ -83,14 +83,15 @@ body{
     grid-template-columns: 90px 60px 60px;
     font-size: 1.3rem;
     padding-left: 180px;
-    background-color: var(--blue);
+    background-color: white;
     width: 100%;
     height: 40px;
     z-index: 10000;
 }
 
 .slogan span{
-    font-weight: 500;
+    color: var(--blue);
+    font-weight: 800;
     font-family: 'Ivymode';
 }
 header{
@@ -102,9 +103,9 @@ header{
     justify-content: space-between;
     width: 100%;
     height: 80px;
-    background-color: rgb(252, 252, 252);
+    background-color: var(--blue);
     transition: all 0.5s ease;
-    box-shadow: 0px 1px 6px rgba(20, 3, 3, 0.887);
+    box-shadow: 0px 1px 6px rgba(20, 3, 3, 0.421);
 }
 
 header .mul{
@@ -139,9 +140,9 @@ header .mul .links{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--blue);
+    color: white;
     padding: 7px 10px;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 300;
     text-align: center;
     border-radius: 30px;
@@ -160,18 +161,18 @@ header .mul li:hover .fa-solid.fa-chevron-down{
 
 
 header .mul .links:hover{
-    color:var(--blue);
+    color:white;
 }
 
 header .mul .links:active{
-    color: black;
+    color:var(--lblue);
 }
 
 .fa-solid.fa-chevron-down{
     transition: all 0.4s ease-in-out;
     padding-left: 4px;
     font-size: 0.9rem;
-    color:var(--blue);
+    color:white;
 }
 
 ::selection{
@@ -214,13 +215,13 @@ a {
 #dd a,#dd1 a{
     text-decoration: none;
     text-align: center;
+    font-size: 1.07rem;
     font-weight: 300;
     display: block;
     transition: all 0.3s ease-in-out;
     box-sizing: border-box;
     width: 100%;
     padding: 13px 9px;
-    font-size: 1rem;
     border-radius: 1px;
     color: var(--blue);
 }
