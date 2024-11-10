@@ -5,6 +5,7 @@
 
 .img{
     width: 100%;
+    margin-bottom: 60px;
 }
 .img img{
     width: 100%;
@@ -12,17 +13,29 @@
     object-fit: cover;    
 }
 .ha{
-    font-size: 2.9rem;
-    color: var(--blue);
+    font-size: 6.9rem;
+    color:white;
     text-align: center;
     width: 100%;
     font-weight: 500;
     margin: 30px;
     
 }
+.img{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.img{
+   position: relative;
+}
+.ha{
+   position: absolute;
+}
  .p2 img{
-    width: 580px;
-    height: 250px;
+    width: 500px;
+    height: 300px;
  }
  .p2 h2,.p2 p{
     width: 500px;
@@ -31,7 +44,13 @@
 a{
    text-decoration: none;
 }
-/* .p1 p{
+.p2{
+   position: relative;
+}
+.p1{
+   position: absolute;
+}
+.p1 p{
     background-color: var(--blue);
     height: 30px;
     width: 50px;
@@ -41,8 +60,7 @@ a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  this is for dates like 23 mar
-} */
+} 
  .p1 {
    align-self: flex-start;
  }
@@ -66,17 +84,18 @@ a{
  }
  .p2 p{
     font-size: 1rem;
+    font-weight: 300;
  }
  .b1 button{
-     width: 160px;
-     text-align: center;
-     border-radius: 20px;
-     height: 40px;
-     margin-top: 30px;
-     border-color: var(--blue);
-     color: var(--blue);
-     background-color: white;
-     border-width: 1.5px;
+   color: var(--blue);
+    background-color: white;
+    border: 1px solid var(--blue);
+    font-size: 1rem;
+    display: flex;
+    padding: 10px 22px;
+    border-radius: 30px;
+    margin-top: 30px;
+    transition: all 0.3s ease-in-out;
  }
  .b1 :hover{
     background-color: var(--blue);
