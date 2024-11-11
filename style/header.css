@@ -1,7 +1,7 @@
 :root{
     --blue:#02717e;
     --lblue:#fbf2e5;
-    --dblue:#82450f;
+    --dblue:#944e10;
 }
 
 @font-face {
@@ -18,7 +18,6 @@ body{
     background-color: var(--lblue);
     padding-top: 120px;
     position: relative;
-    max-width: 100dvw;
     width: 100%;
     overflow-x: hidden;
     display: flex;
@@ -78,22 +77,18 @@ body{
 .slogan{
     position: fixed;
     top: 0;
-    display: grid;
-    align-content: center;
-    grid-template-columns: 90px 60px 60px;
+    display: flex;
     font-size: 1.3rem;
     padding-left: 180px;
     background-color: var(--lblue);
     width: 100%;
     height: 40px;
     z-index: 10000;
+    color: var(--blue);
+    font-family: 'ivymode';
+    align-items: center;
 }
 
-.slogan span{
-    color: var(--blue);
-    font-weight: 800;
-    font-family: 'Ivymode';
-}
 header{
     top: 40px;
     position: fixed;

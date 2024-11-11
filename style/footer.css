@@ -6,6 +6,7 @@ footer{
 }
 
 .logof{
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content:space-evenly;
@@ -14,6 +15,7 @@ footer{
 }
 
 .details{
+    height: 100%;
     width: 70%;
     display: flex;
     justify-content:stretch;
@@ -23,18 +25,22 @@ footer{
 
 .details .cas{
     width: 100%;
-    height: 100%;
+    height: 50%;
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content:space-evenly;
     flex-direction: row;
-    padding-left: 80px;
 }
 .details #dpara p{
     color: white;
     font-weight: 300;
 }
 .details #dpara{
-    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
     font-size: 1.2rem;
 }
 
@@ -42,6 +48,7 @@ footer{
     font-size: 1.1rem;
 }
 .cas .add p{
+    margin-top: 3px;
     font-size: 1.25rem;
     font-weight:200;
     color: white;
@@ -107,40 +114,19 @@ footer{
 }
 
 .social i{
-    color:white;
+    color:rgba(255, 255, 255, 0.5);
     font-size: 1.9rem;
     width: 55px;
     height: 55px;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-in-out;
 }
 
 .social a{
     width: fit-content;
 }
 
-.fa-brands.fa-facebook:hover{
-    font-size: 2.8rem;
-    color: rgb(33, 129, 255);
-}
-
-.fa-brands.fa-instagram:hover{
-    font-size: 2.8rem;
-    background: -webkit-linear-gradient(#ff29d8, #e4a216);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.fa-brands.fa-x-twitter:hover{
-    font-size: 2.8rem;
-    color: black;
-}
-
-.fa-brands.fa-youtube:hover{
-    font-size: 2.8rem;
-    color: rgb(255, 0, 0);
-}
-
+.fa-brands.fa-facebook:hover,.fa-brands.fa-instagram:hover,.fa-brands.fa-x-twitter:hover,.fa-brands.fa-youtube:hover,
 .fa-brands.fa-linkedin:hover{
-    font-size: 2.8rem;
-    color: hsl(210, 95%, 43%);
+    font-size: 2.5rem;
+    color: var(--lblue);
 }

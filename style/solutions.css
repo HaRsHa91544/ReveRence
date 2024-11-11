@@ -8,22 +8,9 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    width: 100vw;
 }
 
-header ul li:nth-child(3) >.links,header ul li:nth-child(3) >.links:hover{
-    background-color: var(--blue);
-    box-shadow: none;
-    color: white;
-}
 
-header .mul li:nth-child(3) .fa-solid.fa-chevron-down{
-    color: white;
-}
-
-header.scrolled ul li:nth-child(3) >.links,header.scrolled ul li:nth-child(3) >.links:hover{
-    color: white;
-}
 .arrow{
     object-fit: cover;
     transform: rotate(180deg);
@@ -82,7 +69,7 @@ header.scrolled ul li:nth-child(3) >.links,header.scrolled ul li:nth-child(3) >.
     align-items: center;
     font-weight: 400;
     font-size: 2.3rem;
-    color: white;
+    color: var(--lblue);
     writing-mode:vertical-rl;
     opacity: 0.4;
     transform: rotate(180deg);
@@ -112,7 +99,7 @@ header.scrolled ul li:nth-child(3) >.links,header.scrolled ul li:nth-child(3) >.
     text-align: center;
     width: 100%;
     height: 15%;
-    color: white;
+    color:var(--lblue);
     font-size: 4rem;
     font-weight: 400;
 }

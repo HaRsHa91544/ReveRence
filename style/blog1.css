@@ -25,7 +25,8 @@
     margin-bottom: 50px;
 }
 .p1 p{
-
+    font-size: 1.1rem;
+    font-weight: 300;
     line-height: 25px;
 }
 .p2{
@@ -41,8 +42,9 @@
     border: 1px solid var(--blue);
     font-size: 1rem;
     display: flex;
-    padding: 10px 22px;
+    padding: 14px 24px;
     border-radius: 30px;
+    cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
 .p2 a button:hover{
@@ -100,8 +102,9 @@
     border: 1px solid var(--blue);
     font-size: 1rem;
     display: flex;
-    padding: 10px 22px;
+    padding: 14px 24px;
     border-radius: 30px;
+    cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
 .p3 .f3 {
@@ -113,4 +116,8 @@
 .p3 .b1 button:hover{
     background-color: var(--blue);
     color: white;
+}
+
+a{
+    text-decoration: none;
 }
