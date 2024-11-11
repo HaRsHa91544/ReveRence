@@ -1,7 +1,7 @@
 var che = false;
 window.onscroll = function() {
     var scrollValue = window.scrollY;
-    if(scrollValue>200 && !che){
+    if(scrollValue>150 && !che){
         che=true;
         valchange();
     }

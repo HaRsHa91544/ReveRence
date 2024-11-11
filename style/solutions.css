@@ -208,3 +208,10 @@ h1{
     font-family: "ivymode";
 }
 
+input[type="radio"]:focus {
+    outline: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
