@@ -82,6 +82,7 @@
 }
 
 .contr h4 {
+    font-family: 'ivymode';
     width: 100%;
     color:var(--blue);
     font-size: 1.05rem;

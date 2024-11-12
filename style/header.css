@@ -77,6 +77,7 @@ body{
     top: 0;
     display: flex;
     font-size: 1.3rem;
+    font-weight: 500;
     padding-left: 180px;
     background-color: var(--lblue);
     width: 100%;
