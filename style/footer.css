@@ -28,9 +28,10 @@ footer{
     height: 50%;
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content:space-around;
     flex-direction: row;
 }
+
 .details #dpara p{
     color: white;
     font-weight: 300;
@@ -48,7 +49,6 @@ footer{
     font-size: 1.1rem;
 }
 .cas .add p{
-    margin-top: 3px;
     font-size: 1.25rem;
     font-weight:200;
     color: white;
@@ -56,11 +56,11 @@ footer{
 .cas .cont a{
     color: white;
 }
-.cas .cont,.cas .add{
+.cas .cont,.cas .add,.cas .social{
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 30%;
+    flex: 1 1 0;
 }
 
 .cont a{
@@ -99,18 +99,16 @@ footer{
 }
 
 .social{
-    padding-left: 50px;
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 40%;
 }
 
 .flinks{
-    margin-top: 10px;
     display: flex;
     justify-content:stretch;
     align-items: center;
+    margin-top: 10px;
 }
 
 .social i{
