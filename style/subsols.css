@@ -27,11 +27,8 @@ header ul li:nth-child(3) .fa-solid.fa-chevron-down{
 .main{
     color: white;
     margin: 60px;
-    font-size: 5.9rem;
+    font-size: 3.9rem;
     font-weight: 400;
-    position: absolute;
-    top: 110px;
-    right: 450px;
 }
 
 .m2{
@@ -39,10 +36,9 @@ header ul li:nth-child(3) .fa-solid.fa-chevron-down{
     flex-direction: column;
     box-sizing: border-box;
     width: 100%;
-    font-size: 1.15rem;
     font-weight: 300;
     padding-left: 60px;
-    padding-top: 60px;
+    padding-top: 30px;
 }
 
 span{
