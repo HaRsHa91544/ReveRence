@@ -102,6 +102,28 @@
 
  .au {
      position: absolute;
-     top: 200px;
-     right: 0;
+     top: 300px;
  }
+
+ .btn1 {
+    color: var(--blue);
+    background-color: white;
+    border: 1px solid var(--blue);
+    font-size: 1rem;
+    display: flex;
+    padding: 10px 22px;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+    margin: 20px;
+    margin-left: 0;
+}
+
+.btn1:hover {
+    background-color: var(--blue);
+    color: white;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
