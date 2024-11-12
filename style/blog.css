@@ -37,6 +37,7 @@
 
 .ha {
    position: absolute;
+   top: 210px;
 }
 
 .p2 img {
@@ -133,4 +134,12 @@ a {
 
 .ig {
    width: 500px;
+}
+
+h1{
+   font-family: "ivymode"; 
+}
+
+a,p,h2{
+   font-family: "avenir";
 }
