@@ -114,14 +114,15 @@ a {
 .b1 button {
    cursor: pointer;
    color: var(--blue);
-   background-color: white;
-   border: 1px solid var(--blue);
-   font-size: 1rem;
-   display: flex;
-   padding: 14px 24px;
-   border-radius: 30px;
-   margin-top: 30px;
-   transition: all 0.3s ease-in-out;
+    background-color: white;
+    border: 1px solid var(--blue);
+    font-size: 1rem;
+    display: flex;
+    padding: 12px 22px;
+    font-weight: 400;
+    border-radius: 30px;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
 }
 
 .b1 :hover {

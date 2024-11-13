@@ -43,14 +43,15 @@
     margin-bottom: 15px;
 }
 .p2 a button{
+    cursor: pointer;
     color: var(--blue);
     background-color: white;
     border: 1px solid var(--blue);
     font-size: 1rem;
     display: flex;
-    padding: 14px 24px;
+    padding: 12px 22px;
+    font-weight: 400;
     border-radius: 30px;
-    cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
 .p2 a button:hover{
@@ -103,21 +104,26 @@
     
 }
 .p3 .b1 button{
+    cursor: pointer;
     color: var(--blue);
     background-color: white;
     border: 1px solid var(--blue);
     font-size: 1rem;
     display: flex;
-    padding: 14px 24px;
+    padding: 12px 22px;
+    font-weight: 400;
     border-radius: 30px;
-    cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
 .p3 .f3 {
     margin-bottom: 30px;
 }
 .p3 a{
+    transition: all 0.3s ease-in-out;
     margin-bottom: 30px;
+}
+.p3 p:hover{
+    color: var(--blue);
 }
 .p3 .b1 button:hover{
     background-color: var(--blue);
@@ -125,8 +131,9 @@
 }
 
 .p3 p{
+    transition: all 0.3s ease-in-out;
     font-family: 'ivymode';
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: 400;
 }
 a{
