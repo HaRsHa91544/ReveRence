@@ -32,15 +32,20 @@
  }
 
  .vis {
-    display: flex;
-    flex-direction: column;
+     display: flex;
+     flex-direction: column;
      padding-left: 60px;
      padding-right: 70px;
      padding-bottom: 30px;
  }
 
+ .vis:first-child,
+ .vis:nth-child(3) {
+     background-color: var(--llblue);
+ }
+
  .vis h2 {
-    font-family: 'ivymode';
+     font-family: 'ivymode';
      color: var(--blue);
      font-size: 2.5rem;
      font-weight: 400;
@@ -107,27 +112,27 @@
      top: 300px;
  }
 
-.btn1 {
-    color: var(--blue);
-    background-color: white;
-    border: 1px solid var(--blue);
-    font-size: 1rem;
-    display: flex;
-    padding: 12px 22px;
-    border-radius: 30px;
-    transition: all 0.3s ease-in-out;
-    margin: 20px;
-    margin-left: 0;
-}
+ .btn1 {
+     color: var(--blue);
+     background-color: white;
+     border: 1px solid var(--blue);
+     font-size: 1rem;
+     display: flex;
+     padding: 12px 22px;
+     border-radius: 30px;
+     transition: all 0.3s ease-in-out;
+     margin: 20px;
+     margin-left: 0;
+ }
 
-.btn1:hover {
-    background-color: var(--blue);
-    color: white;
-    cursor: pointer;
-}
+ .btn1:hover {
+     background-color: var(--blue);
+     color: white;
+     cursor: pointer;
+ }
 
-#jlink{
-    text-decoration: none;
-    width: fit-content;
-    height: fit-content;
-}
+ #jlink {
+     text-decoration: none;
+     width: fit-content;
+     height: fit-content;
+ }
