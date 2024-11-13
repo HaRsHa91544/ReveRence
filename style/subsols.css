@@ -4,19 +4,6 @@ body{
     flex-direction: column;
     justify-content: center;
 }
-header .mul li:nth-child(3) >.links{
-    background-color: var(--blue);
-    box-shadow: none;
-    color: white;
-}
-
-header.scrolled .mul li:nth-child(3) > .links{
-    color: white;
-}
-
-header ul li:nth-child(3) .fa-solid.fa-chevron-down{
-    color: white;
-}
 
 .ig{
     width: 100%;
@@ -33,6 +20,7 @@ header ul li:nth-child(3) .fa-solid.fa-chevron-down{
 
 .m2{
     display: flex;
+    font-size: 1.1rem;
     flex-direction: column;
     box-sizing: border-box;
     width: 100%;
@@ -49,7 +37,7 @@ span{
 }
 
 footer{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .er{
@@ -57,7 +45,7 @@ footer{
     position: relative;
 }
 
-h2{
+.er h2{
     font-family: 'ivymode';
 }
 

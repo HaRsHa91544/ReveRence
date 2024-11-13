@@ -40,8 +40,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 100px;
-    padding-bottom: 120px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 .box{
@@ -52,7 +52,7 @@ body {
     border-radius: 25px;
     width: 10%;
     margin-left: 10px;
-    height: 620px;
+    height: 630px;
     background-color: var(--blue);
     cursor: pointer;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.10);
@@ -123,7 +123,7 @@ body {
     border: 1px solid var(--blue);
     font-size: 1rem;
     display: flex;
-    padding: 14px 24px;
+    padding: 12px 22px;
     border-radius: 30px;
     transition: all 0.3s ease-in-out;
     opacity: 0;
@@ -143,7 +143,7 @@ body {
     background-color: white;
     border: 2px solid var(--blue);
     width: 50%;
-    height: 620px;
+    height: 630px;
 }
 
 .hidden:checked + .box .isol{
@@ -201,7 +201,8 @@ body {
 
 #bhead{
     position: absolute;
-    top: 100px;
+    top: 180px;
+    font-size: 5.5rem;
 }
 
 h1{

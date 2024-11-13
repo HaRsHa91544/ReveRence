@@ -25,8 +25,8 @@ body{
 
 *{
     letter-spacing: 1px;
-    font-family:'avenir',sans-serif;
-    font-weight:900;
+    font-family:'Nunito Sans',sans-serif;
+    font-weight:300;
     margin: 0;
     padding: 0;
     color: black;
@@ -76,7 +76,7 @@ body{
     position: fixed;
     top: 0;
     display: flex;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 500;
     padding-left: 180px;
     background-color: var(--lblue);

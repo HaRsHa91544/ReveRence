@@ -15,7 +15,7 @@
 }
 
 .ha {
-   font-size: 6.9rem;
+   font-size: 6rem;
    color: white;
    text-align: center;
    width: 100%;
@@ -38,6 +38,7 @@
 .ha {
    position: absolute;
    top: 210px;
+   font-size: 5.5rem;
 }
 
 .p2 img {
@@ -99,6 +100,7 @@ a {
 }
 
 .p2 h2 {
+   font-family: 'ivymode';
    transition: all 0.3s ease-in-out;
    font-weight: 400;
    padding-bottom: 10px;
@@ -140,6 +142,3 @@ h1{
    font-family: "ivymode"; 
 }
 
-a,p,h2{
-   font-family: "avenir";
-}
