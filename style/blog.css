@@ -35,11 +35,12 @@
    height: 300px; 
 }
 
-.p2 h2,
-.p2 p {
+.p2 h2{
+   color: var(--blue);
    width: 590px;
-   
+   margin-top: 10px;
 }
+
 .p2 p{
    width: 530px;
 }
@@ -142,4 +143,3 @@ h1{
    border-radius: 7px;
    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.10);
 }
-

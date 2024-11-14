@@ -390,14 +390,13 @@ a {
 }
 
 .loc h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 300;
 }
 
 .loc p {
     font-size: 1.2rem;
     font-weight: 300;
-    color: rgb(91, 91, 91);
 }
 
 .loc img{

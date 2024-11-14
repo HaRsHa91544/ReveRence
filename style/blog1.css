@@ -107,15 +107,14 @@
     transition: all 0.3s ease-in-out;
     margin-bottom: 30px;
 }
-.p3 p:hover{
-    color: var(--blue);
-}
+
 .p3 .b1 button:hover{
     background-color: var(--blue);
     color: white;
 }
 
 .p3 p{
+    color: var(--blue);
     transition: all 0.3s ease-in-out;
     font-family: 'ivymode';
     font-size: 1.3rem;
@@ -142,11 +141,11 @@ h1{
     grid-row-gap: 80px;
 }
 .i1 img{
-    transition: all 0.15ms ease-in-out;
+    transition: all 0.3s ease-in-out;
     border-radius: 7px;
 }
 .i1 img:hover{
-    box-shadow: 7px 7px 7px var(--dblue);
+    box-shadow: 1px 2px 5px var(--blue);
 }
 .h22{
     color: var(--blue);
@@ -169,7 +168,6 @@ h1{
 }
  .p11 .pb2{
     padding: 10px 80px;
-    text-align: center;
     line-height: 30px;
     font-size: 1.1rem;
     font-weight: 300;
