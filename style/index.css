@@ -376,10 +376,10 @@ a {
 
 .loc div:nth-child(2) {
     display: flex;
-    width: 50%;
+    width: 60%;
     height: 100%;
     align-items: center;
-    justify-content: flex-end;
+    justify-content:flex-end;
 }
 
 .loc h2 {
@@ -400,6 +400,10 @@ a {
     color: rgb(91, 91, 91);
 }
 
+.loc img{
+    width: 65%;
+    margin-right: 40px;
+}
 .blog{
     display: flex;
     align-items: center;
