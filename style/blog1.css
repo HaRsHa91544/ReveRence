@@ -26,8 +26,10 @@
     position: absolute;
 }
 .p1{
-    width: 1000px;
+    width: 100%;
     margin-bottom: 50px;
+    padding: 80px;
+    padding-top: 0px;
 }
 .p1 p{
     font-size: 1.1rem;
@@ -86,22 +88,6 @@
     gap: 20px;
     margin-bottom: 30px;
 }
-.f2 p{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    background-color: var(--blue);
-    width: 45px;
-    height: 30px;
-}
-.f3{
-    position: relative;
-}
-.f2{
-    position: absolute;
-    
-}
 .p3 .b1 button{
     cursor: pointer;
     color: var(--blue);
@@ -141,4 +127,98 @@ a{
 
 h1{
     font-family: "ivymode";
+}
+.i1{
+    width: 100%;
+}
+.i1{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    grid-row-gap: 80px;
+}
+.i1 img{
+    transition: all 0.15ms ease-in-out;
+}
+.i1 img:hover{
+    box-shadow: 7px 7px 7px var(--dblue);
+}
+.h22{
+    color: var(--blue);
+    font-family: 'ivymode';
+    font-size: 1.5rem;
+}
+.ul1{
+    padding: 10px 30px;
+}
+.ul1 li strong{
+    color: var(--blue);
+}
+.p1 p{
+   margin-bottom: 30px; 
+}
+.p11{
+    width: 100%;
+    padding: 10px 80px;
+    margin-bottom: 50px;
+}
+ .p11 .pb2{
+    padding: 10px 80px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 1.2rem;
+}
+.p22,.b22{
+    width: 100%;
+    padding: 20px 80px;
+    margin-bottom: 30px;
+}
+.b22{
+    margin-bottom: 70px;
+}
+.b22 p ,.p22 p{
+    padding: 10px 20px;
+    padding-left: 50px;
+}
+.b22 h2,.p22 h2{
+    color: var(--blue);
+    font-weight: 200;
+    font-size: 1.4rem;
+    padding-left: 35px;
+}
+.b22 h1{
+    color: var(--blue);
+    margin-bottom: 20px;
+    
+}
+.p22 h1{
+    color: var(--blue);
+}
+.b44{
+    width: 100%;
+    padding:20px  100px;
+    margin-bottom: 60px;
+
+}
+.ul2{
+    padding: 10px 40px;
+    margin-bottom: 20px;
+    padding-left: 60px;
+}
+.hb4{
+    color: var(--blue);
+    margin-bottom: 20px;
+}
+.hb44{
+    color: var(--blue);
+    font-family: 'ivymode';
+    font-weight: 100;
+    padding-left: 20px;
+    margin: 5px;
+}
+.ul2 li strong{
+    color: var(--blue);
+} 
+.clp1{
+    padding: 0px 40px;
 }

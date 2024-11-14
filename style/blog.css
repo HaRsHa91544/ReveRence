@@ -32,7 +32,7 @@
 
 .p2 img {
    width: 530px;
-   height: 300px;
+   height: 300px; 
 }
 
 .p2 h2,
@@ -48,10 +48,9 @@ a {
    text-decoration: none;
 }
 
-.p2 {
+.po1{
    position: relative;
 }
-
 .p1 {
    position: absolute;
 }
@@ -87,18 +86,26 @@ a {
    gap: 30px;
    margin-bottom: 70px;
 }
-
+.p2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
 .p2 h2 {
    font-family: 'ivymode';
    transition: all 0.3s ease-in-out;
    font-weight: 400;
    padding-bottom: 10px;
+ text-align: center;
 }
 
 .p2 p {
    font-size: 1rem;
    font-weight: 300;
+   text-align: center;
 }
+
 
 .b1 button {
    cursor: pointer;
