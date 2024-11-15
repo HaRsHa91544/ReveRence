@@ -128,8 +128,8 @@ h1{
     font-family: "ivymode";
 }
 .f3 a img{
-    border-radius: 7px;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.10);
+    border-radius: 10px;
+    box-shadow:  -1px -1px 10px 3px rgba(0, 0, 0, 0.10);
 }
 .i1{
     width: 100%;
@@ -145,7 +145,8 @@ h1{
     border-radius: 7px;
 }
 .i1 img:hover{
-    box-shadow: 1px 2px 5px var(--blue);
+    cursor: pointer;
+    box-shadow:  -1px -1px 10px 1px rgba(0, 106, 94, 0.545);
 }
 .h22{
     color: var(--blue);

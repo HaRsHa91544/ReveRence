@@ -19,9 +19,9 @@ function valchange() {
     let l = 0;
     let m = 0;
     const interval = setInterval(function () {
-        if (i <= 1.2) {
-            rev.innerHTML = `₹${i.toFixed(1)}`;
-            i += 0.1;
+        if (i <= 20) {
+            rev.innerHTML = `₹${i} M`;
+            i += 1;
         }
         else if (j <= 540) {
             lab.innerHTML = `+${j}`;
