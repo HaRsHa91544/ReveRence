@@ -15,6 +15,19 @@
     object-fit: cover;
 }
 
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+
 .contr {
     width: 100%;
     height: 400px;
@@ -23,7 +36,7 @@
     justify-content: space-evenly;
 }
 
-.contr img{
+.contr img {
     width: 100px;
 }
 
@@ -39,7 +52,7 @@
     border-right: 3px solid rgba(128, 128, 128, 0.295);
 }
 
-.contr div:nth-child(5){
+.contr div:nth-child(5) {
     border: none;
 }
 
@@ -54,13 +67,16 @@
 .contr h4 {
     font-family: 'ivymode';
     width: 100%;
-    color:var(--blue);
+    color: var(--blue);
     font-size: 1.05rem;
     font-weight: 300;
 }
 
 
 .container {
+    animation: appear 10s ease-in-out;
+    animation-timeline: view();
+    animation-range:entry 0% cover 30%;
     height: 480px;
     display: flex;
     justify-content: center;
@@ -155,18 +171,18 @@
     color: white;
 }
 
-.card-wrapper .swiper-pagination-bullet{
+.card-wrapper .swiper-pagination-bullet {
     background-color: var(--blue);
     opacity: 0.5;
     height: 13px;
     width: 13px;
 }
 
-.card-wrapper .swiper-pagination-bullet-active{
+.card-wrapper .swiper-pagination-bullet-active {
     opacity: 1;
 }
 
-.card-wrapper .swiper-slide-button{
+.card-wrapper .swiper-slide-button {
     color: var(--blue);
 }
 
@@ -188,6 +204,10 @@
 }
 
 .about .con2 {
+    animation: appear 10s ease-in-out;
+    animation-timeline: view();
+    animation-range:entry 0% cover 30%;
+    animation-delay: 1s;
     text-align: center;
     height: 70%;
     width: 50%;
@@ -205,6 +225,9 @@
 }
 
 .about div h2 {
+    animation: appear 10s ease-in-out;
+    animation-timeline: view();
+    animation-range:entry 0% cover 30%;
     font-family: 'Ivymode';
     color: var(--blue);
     font-size: 2.9rem;
@@ -212,11 +235,17 @@
 }
 
 .about div .para {
+    animation: appear 10s ease-in-out;
+    animation-timeline: view();
+    animation-range:entry 0% cover 30%;
     font-size: 1.18rem;
     font-weight: 300;
 }
 
 #btn1 {
+    animation: appear 10s ease-in-out;
+    animation-timeline: view();
+    animation-range:entry 0% cover 30%;
     color: var(--blue);
     background-color: white;
     border: 1px solid var(--blue);
@@ -235,6 +264,9 @@
 }
 
 .con2 p {
+    animation: appear 10s ease-in-out;
+    animation-timeline: view();
+    animation-range:entry 0% cover 30%;
     border-radius: 40px;
     background-color: var(--blue);
     padding: 15px 30px;
@@ -248,7 +280,7 @@ a {
 }
 
 
-.certi{
+.certi {
     padding: 30px;
     width: 100%;
     height: 420px;
@@ -257,14 +289,18 @@ a {
     flex-direction: column;
 }
 
-.certi h1,.certi p{
+.certi h1,
+.certi p {
+    animation: appear 10s ease-in-out;
+    animation-timeline: view();
+    animation-range:entry 0% cover 30%;
     text-align: center;
     font-weight: 300;
     font-size: 1.2rem;
     height: 30%;
 }
 
-.certi h1{
+.certi h1 {
     color: var(--blue);
     font-size: 2.8rem;
     font-family: 'ivymode';
@@ -273,7 +309,7 @@ a {
 }
 
 
-.award-container{
+.award-container {
     display: flex;
     width: 100%;
     height: 70%;
@@ -282,7 +318,10 @@ a {
 }
 
 
-.award-container .award{
+.award-container .award {
+    animation: appear 10s ease-in-out;
+    animation-timeline: view();
+    animation-range:entry 0% cover 30%;
     border: 1px solid var(--blue);
     height: 100%;
     display: flex;
@@ -293,14 +332,22 @@ a {
     padding: 20px;
     flex: 1 1 3;
     border-radius: 5px;
-    box-shadow:  -1px -1px 8px 1px rgba(0, 0, 0, 0.082);
+    box-shadow: -1px -1px 8px 1px rgba(0, 0, 0, 0.082);
 }
 
-.award img{
+.award-container .award:nth-child(2){
+    animation-delay: 0.1s;
+}
+
+.award-container .award:nth-child(3){
+    animation-delay: 0.15s;
+}
+
+.award img {
     width: 100px;
 }
 
-.award h3{
+.award h3 {
     font-family: 'ivymode';
     color: var(--blue);
     text-align: center;
@@ -317,6 +364,9 @@ a {
 }
 
 .vpara {
+    animation: appear 10s ease-in-out;
+    animation-timeline: view();
+    animation-range:entry 0% cover 30%;
     padding-left: 60px;
     display: flex;
     flex-direction: column;
@@ -327,6 +377,9 @@ a {
 }
 
 .vision h2 {
+    animation: appear 10s ease-in-out;
+    animation-timeline: view();
+    animation-range:entry 0% cover 30%;
     font-family: 'Ivymode';
     color: var(--blue);
     font-size: 2.9rem;
@@ -334,11 +387,18 @@ a {
 }
 
 .vision p {
+    animation: appear 10s ease-in-out;
+    animation-timeline: view();
+    animation-range:entry 0% cover 30%;
     font-size: 1.19rem;
     font-weight: 300;
 }
 
 .vimg {
+    animation: appear 10s ease-in-out;
+    animation-timeline: view();
+    animation-range:entry 0% cover 30%;
+    animation-delay: 2s;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -347,7 +407,7 @@ a {
 }
 
 .vimg img {
-    box-shadow:  -1px -1px 10px 4px rgba(0, 0, 0, 0.10);
+    box-shadow: -1px -1px 10px 4px rgba(0, 0, 0, 0.10);
     border-radius: 7px;
 }
 
@@ -360,6 +420,9 @@ a {
 }
 
 .loc div:nth-child(1) {
+    animation: appear 10s ease-in-out;
+    animation-timeline: view();
+    animation-range:entry 0% cover 30%;
     display: flex;
     align-items: flex-start;
     justify-content: space-evenly;
@@ -374,10 +437,13 @@ a {
     width: 60%;
     height: 100%;
     align-items: center;
-    justify-content:flex-end;
+    justify-content: flex-end;
 }
 
 .loc h2 {
+    animation: appear 10s ease-in-out;
+    animation-timeline: view();
+    animation-range:entry 0% cover 30%;
     font-family: 'Ivymode';
     font-size: 2.9rem;
     font-weight: 400;
@@ -385,20 +451,31 @@ a {
 }
 
 .loc h3 {
+    animation: appear 10s ease-in-out;
+    animation-timeline: view();
+    animation-range:entry 0% cover 30%;
     font-size: 1.2rem;
     font-weight: 300;
 }
 
 .loc p {
+    animation: appear 10s ease-in-out;
+    animation-timeline: view();
+    animation-range:entry 0% cover 30%;
     font-size: 1.2rem;
     font-weight: 300;
 }
 
-.loc img{
+.loc img {
+    animation-delay: 10s;
+    animation: appear 10s ease-in-out;
+    animation-timeline: view();
+    animation-range:entry 0% cover 30%;
     width: 65%;
     margin-right: 40px;
 }
-.blog{
+
+.blog {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -409,7 +486,10 @@ a {
     margin: 0px 0px 30px 0px;
 }
 
-.blog h1{
+.blog h1 {
+    animation: appear 10s ease-in-out;
+    animation-timeline: view();
+    animation-range:entry 0% cover 30%;
     font-family: 'ivymode';
     font-size: 2.5rem;
     font-weight: 400;
@@ -420,7 +500,12 @@ a {
     padding-left: 60px;
     color: var(--blue);
 }
-.blog .inner{
+
+.blog .inner {
+    animation-delay: 3s;
+    animation: appear 10s ease-in-out;
+    animation-timeline: view();
+    animation-range:entry 0% cover 30%;
     background-color: white;
     display: flex;
     align-items: center;
@@ -428,20 +513,20 @@ a {
     width: 70%;
     height: 100%;
     border-radius: 30px;
-    box-shadow:  -1px -1px 5px 1px rgba(0, 0, 0, 0.10);
+    box-shadow: -1px -1px 5px 1px rgba(0, 0, 0, 0.10);
 }
 
-.blog .img{
+.blog .img {
     background-color: var(--blue);
     margin: 0px 20px 0px 35px;
-    box-shadow:  -1px -1px 20px 6px rgba(0, 0, 0, 0.10);
+    box-shadow: -1px -1px 20px 6px rgba(0, 0, 0, 0.10);
     width: 40%;
     height: 60%;
     overflow: hidden;
     border-radius: 7px;
 }
 
-.img img{
+.img img {
     opacity: 0;
     display: none;
     margin-left: 300px;
@@ -452,13 +537,16 @@ a {
     animation: fadeInOut .7s ease;
 }
 
-#tap-1:checked ~ .inner .img-1,#tap-2:checked ~ .inner .img-2,#tap-3:checked ~ .inner .img-3,#tap-4:checked ~ .inner .img-4{
+#tap-1:checked~.inner .img-1,
+#tap-2:checked~.inner .img-2,
+#tap-3:checked~.inner .img-3,
+#tap-4:checked~.inner .img-4 {
     display: flex;
     opacity: 1;
     margin-left: 0px;
 }
 
-.blog .content{
+.blog .content {
     position: relative;
     height: 90%;
     opacity: 0;
@@ -473,31 +561,31 @@ a {
     animation: fadeInOut .8s ease;
 }
 
-#tap-1:checked ~ .inner .content-1{
+#tap-1:checked~.inner .content-1 {
     margin-left: 0px;
     opacity: 1;
     display: flex;
 }
 
-#tap-2:checked ~ .inner .content-2{
+#tap-2:checked~.inner .content-2 {
     margin-left: 0px;
     opacity: 1;
     display: flex;
 }
 
-#tap-3:checked ~ .inner .content-3{
+#tap-3:checked~.inner .content-3 {
     margin-left: 0px;
     opacity: 1;
     display: flex;
 }
 
-#tap-4:checked ~ .inner .content-4{
+#tap-4:checked~.inner .content-4 {
     margin-left: 0px;
     opacity: 1;
     display: flex;
 }
 
-.content .title{
+.content .title {
     transition: all 0.3s ease-in-out;
     color: var(--blue);
     font-size: 1.75rem;
@@ -505,19 +593,19 @@ a {
     font-weight: 300;
 }
 
-.content .text{
+.content .text {
     transition: all 0.3s ease-in-out;
     font-size: 1.1rem;
     font-weight: 300;
 }
 
-.sliders{
+.sliders {
     z-index: 1000;
     position: absolute;
     bottom: 8px;
 }
 
-.sliders .tap{
+.sliders .tap {
     position: relative;
     width: 40px;
     height: 10px;
@@ -528,7 +616,7 @@ a {
     margin: 0 5px;
 }
 
-.sliders .tap::before{
+.sliders .tap::before {
     transition: all 0.4s ease;
     content: '';
     position: absolute;
@@ -541,17 +629,20 @@ a {
     transform-origin: left;
 }
 
-.sliders .tap:hover:before{
+.sliders .tap:hover:before {
     background-color: rgb(122, 122, 122);
     transform: scaleX(1);
 }
 
-#tap-1:checked ~ .sliders .tap-1::before,#tap-3:checked ~ .sliders .tap-3::before,#tap-2:checked ~ .sliders .tap-2::before,#tap-4:checked ~ .sliders .tap-4::before{
+#tap-1:checked~.sliders .tap-1::before,
+#tap-3:checked~.sliders .tap-3::before,
+#tap-2:checked~.sliders .tap-2::before,
+#tap-4:checked~.sliders .tap-4::before {
     transform: scaleX(1);
     background-color: var(--blue);
 }
 
-.blog input{
+.blog input {
     display: none;
 }
 
