@@ -31,7 +31,7 @@
     height: 65%;
     padding-right: 30px;
     display: flex;
-    width: 250px;
+    flex: 1 1 0;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -40,12 +40,7 @@
 }
 
 .contr div:nth-child(5){
-    margin-top: 24px;
     border: none;
-}
-
-.contr div:nth-child(2) {
-    margin-top: 24px;
 }
 
 .contr h1 {

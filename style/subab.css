@@ -58,4 +58,22 @@
     font-weight: 300;
 }
 
+.btn1{
+    cursor: pointer;
+    color: var(--blue);
+    background-color: white;
+    border: 1px solid var(--blue);
+    font-size: 1rem;
+    display: flex;
+    padding: 12px 22px;
+    font-weight: 400;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn1:hover {
+    background-color: var(--blue);
+    color: white;
+    cursor: pointer;
+}
 

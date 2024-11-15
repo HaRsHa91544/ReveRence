@@ -23,19 +23,19 @@ function valchange() {
             rev.innerHTML = `₹${i.toFixed(1)}`;
             i += 0.1;
         }
-        else if (j <= 500) {
+        else if (j <= 540) {
             lab.innerHTML = `+${j}`;
             j += 20;
         }
-        else if (k <= 31000) {
+        else if (k <= 36000) {
             pro.innerHTML = `+${k}`;
             k += 1000;
         }
-        else if (l <= 11000) {
+        else if (l <= 18000) {
             del.innerHTML = `+${l}`;
-            l += 500;
+            l += 1000;
         }
-        else if (m <= 115) {
+        else if (m <= 145) {
             phcc.innerHTML = `+${m}`;
             m += 5;
         }
