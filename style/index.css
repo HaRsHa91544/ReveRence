@@ -74,9 +74,9 @@
 
 
 .container {
-    animation: appear 10s ease-in-out;
+    /*animation: appear 10s ease-in-out;
     animation-timeline: view();
-    animation-range:entry 0% cover 30%;
+    animation-range:entry 0% cover 30%;*/
     height: 480px;
     display: flex;
     justify-content: center;
@@ -204,9 +204,9 @@
 }
 
 .about .con2 {
-    animation: appear 10s ease-in-out;
+    /*animation: appear 10s ease-in-out;
     animation-timeline: view();
-    animation-range:entry 0% cover 30%;
+    animation-range:entry 0% cover 30%;*/
     animation-delay: 1s;
     text-align: center;
     height: 70%;
@@ -225,9 +225,9 @@
 }
 
 .about div h2 {
-    animation: appear 10s ease-in-out;
+    /*animation: appear 10s ease-in-out;
     animation-timeline: view();
-    animation-range:entry 0% cover 30%;
+    animation-range:entry 0% cover 30%;*/
     font-family: 'Ivymode';
     color: var(--blue);
     font-size: 2.9rem;
@@ -235,17 +235,17 @@
 }
 
 .about div .para {
-    animation: appear 10s ease-in-out;
+    /*animation: appear 10s ease-in-out;
     animation-timeline: view();
-    animation-range:entry 0% cover 30%;
+    animation-range:entry 0% cover 30%;*/
     font-size: 1.18rem;
     font-weight: 300;
 }
 
 #btn1 {
-    animation: appear 10s ease-in-out;
+    /*animation: appear 10s ease-in-out;
     animation-timeline: view();
-    animation-range:entry 0% cover 30%;
+    animation-range:entry 0% cover 30%;*/
     color: var(--blue);
     background-color: white;
     border: 1px solid var(--blue);
@@ -264,9 +264,9 @@
 }
 
 .con2 p {
-    animation: appear 10s ease-in-out;
+    /*animation: appear 10s ease-in-out;
     animation-timeline: view();
-    animation-range:entry 0% cover 30%;
+    animation-range:entry 0% cover 30%;*/
     border-radius: 40px;
     background-color: var(--blue);
     padding: 15px 30px;
@@ -291,9 +291,9 @@ a {
 
 .certi h1,
 .certi p {
-    animation: appear 10s ease-in-out;
+    /*animation: appear 10s ease-in-out;
     animation-timeline: view();
-    animation-range:entry 0% cover 30%;
+    animation-range:entry 0% cover 30%;*/
     text-align: center;
     font-weight: 300;
     font-size: 1.2rem;
@@ -319,9 +319,9 @@ a {
 
 
 .award-container .award {
-    animation: appear 10s ease-in-out;
+    /*animation: appear 10s ease-in-out;
     animation-timeline: view();
-    animation-range:entry 0% cover 30%;
+    animation-range:entry 0% cover 30%;*/
     border: 1px solid var(--blue);
     height: 100%;
     display: flex;
@@ -364,9 +364,9 @@ a {
 }
 
 .vpara {
-    animation: appear 10s ease-in-out;
+    /*animation: appear 10s ease-in-out;
     animation-timeline: view();
-    animation-range:entry 0% cover 30%;
+    animation-range:entry 0% cover 30%;*/
     padding-left: 60px;
     display: flex;
     flex-direction: column;
@@ -377,9 +377,9 @@ a {
 }
 
 .vision h2 {
-    animation: appear 10s ease-in-out;
+    /*animation: appear 10s ease-in-out;
     animation-timeline: view();
-    animation-range:entry 0% cover 30%;
+    animation-range:entry 0% cover 30%;*/
     font-family: 'Ivymode';
     color: var(--blue);
     font-size: 2.9rem;
@@ -387,17 +387,17 @@ a {
 }
 
 .vision p {
-    animation: appear 10s ease-in-out;
+    /*animation: appear 10s ease-in-out;
     animation-timeline: view();
-    animation-range:entry 0% cover 30%;
+    animation-range:entry 0% cover 30%;*/
     font-size: 1.19rem;
     font-weight: 300;
 }
 
 .vimg {
-    animation: appear 10s ease-in-out;
+    /*animation: appear 10s ease-in-out;
     animation-timeline: view();
-    animation-range:entry 0% cover 30%;
+    animation-range:entry 0% cover 30%;*/
     animation-delay: 2s;
     display: flex;
     align-items: center;
@@ -420,9 +420,9 @@ a {
 }
 
 .loc div:nth-child(1) {
-    animation: appear 10s ease-in-out;
+    /*animation: appear 10s ease-in-out;
     animation-timeline: view();
-    animation-range:entry 0% cover 30%;
+    animation-range:entry 0% cover 30%;*/
     display: flex;
     align-items: flex-start;
     justify-content: space-evenly;
@@ -441,9 +441,9 @@ a {
 }
 
 .loc h2 {
-    animation: appear 10s ease-in-out;
+    /*animation: appear 10s ease-in-out;
     animation-timeline: view();
-    animation-range:entry 0% cover 30%;
+    animation-range:entry 0% cover 30%;*/
     font-family: 'Ivymode';
     font-size: 2.9rem;
     font-weight: 400;
@@ -451,26 +451,26 @@ a {
 }
 
 .loc h3 {
-    animation: appear 10s ease-in-out;
+    /*animation: appear 10s ease-in-out;
     animation-timeline: view();
-    animation-range:entry 0% cover 30%;
+    animation-range:entry 0% cover 30%;*/
     font-size: 1.2rem;
     font-weight: 300;
 }
 
 .loc p {
-    animation: appear 10s ease-in-out;
+    /*animation: appear 10s ease-in-out;
     animation-timeline: view();
-    animation-range:entry 0% cover 30%;
+    animation-range:entry 0% cover 30%;*/
     font-size: 1.2rem;
     font-weight: 300;
 }
 
 .loc img {
     animation-delay: 10s;
-    animation: appear 10s ease-in-out;
+    /*animation: appear 10s ease-in-out;
     animation-timeline: view();
-    animation-range:entry 0% cover 30%;
+    animation-range:entry 0% cover 30%;*/
     width: 65%;
     margin-right: 40px;
 }
@@ -487,9 +487,9 @@ a {
 }
 
 .blog h1 {
-    animation: appear 10s ease-in-out;
+    /*animation: appear 10s ease-in-out;
     animation-timeline: view();
-    animation-range:entry 0% cover 30%;
+    animation-range:entry 0% cover 30%;*/
     font-family: 'ivymode';
     font-size: 2.5rem;
     font-weight: 400;
@@ -503,9 +503,9 @@ a {
 
 .blog .inner {
     animation-delay: 3s;
-    animation: appear 10s ease-in-out;
+    /*animation: appear 10s ease-in-out;
     animation-timeline: view();
-    animation-range:entry 0% cover 30%;
+    animation-range:entry 0% cover 30%;*/
     background-color: white;
     display: flex;
     align-items: center;
@@ -600,7 +600,7 @@ a {
 }
 
 .sliders {
-    z-index: 1000;
+    z-index: 1;
     position: absolute;
     bottom: 8px;
 }
