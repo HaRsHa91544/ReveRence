@@ -49,7 +49,7 @@ footer{
     font-size: 1.1rem;
 }
 .cas .add p{
-    font-size: 1.3rem;
+    font-size: 1.15rem;
     font-weight:300;
     color: white;
 }
@@ -102,6 +102,7 @@ footer{
     display: flex;
     flex-direction: column;
     height: 100%;
+    margin-left: 40px;
 }
 
 .flinks{
@@ -176,7 +177,7 @@ footer{
         display: flex;
         align-items: center;
         text-align: center;
-        height: 30%;
+        height: 40%;
     }
     .cas .add p{
         width: 80%;
@@ -185,5 +186,6 @@ footer{
     .cas .social{
         text-align: center;
         height: 20%;
+        margin: 0;
     }
 }
