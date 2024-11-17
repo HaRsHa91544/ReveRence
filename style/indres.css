@@ -16,6 +16,9 @@
         border: none;
         border-bottom: 1px solid var(--blue);
     }
+    .contr h4{
+        font-size: 1rem;
+    }
     .card-wrapper{
         margin:0 10px 25px;
     }
@@ -104,19 +107,23 @@
         width: 100%;
     }
     .vision .vpara h2{
+        padding-top: 10px;
         text-align: center;
-        height: 10%;
+        height: 15%;
         width: 100%;
         font-size: 2.3rem;
     }
     .vision .vpara p{
         height: 55%;
-        width: 90%;
+        width: 95%;
         text-align: center;
         font-size: 1.1rem;
     }
-    .vision a{
-        align-self: center;
+    .vision .vpara a{
+        width: 100%;
+        height: 30%;
+        align-items: center;
+        justify-content: center;
     }
     .vimg{
         height: 35%;
@@ -124,5 +131,70 @@
     }
     .vimg img{
         width: 90%;
+    }
+    .loc{
+        justify-content: space-evenly;
+        flex-direction: column;
+        width: 100%;
+        height: 700px;
+    }
+    .loc div:nth-child(1){
+        justify-content: space-evenly;
+        padding: 0;
+        align-items: center;
+        width: 100%;
+        height: 50%;
+    }
+    .loc div:nth-child(2){
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 50%;
+    }
+    .loc h2{
+        font-size: 2.3rem;
+    }
+    .loc h3,.loc p{
+        text-align: center;
+        width: 90%;
+        font-size: 1.1rem;
+    }
+    .loc img {
+        margin: 0;
+    }
+    .blog{
+        justify-content: space-evenly;
+        width: 100%;
+        height: 500px;
+    }
+    .blog h1{
+        font-size: 2.3rem;
+        width: 100%;
+        height: 20%;
+    }
+    .blog .inner{
+        justify-content: center;
+        flex-direction: column;
+        width: 90%;
+        height: 80%;
+    }
+    .blog .img{
+        margin: 0;
+        width: 90%;
+        height: 50%;
+    }
+    .blog .content{
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        height: 40%;
+    }
+    .content .text {
+        display: none;
+    }
+    .content .title{
+        font-size: 1.5rem;
+        text-align: center;
+        width: 100%;
     }
 }

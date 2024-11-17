@@ -539,9 +539,9 @@ a {
 }
 
 .img img {
+    margin-left: 300px;
     opacity: 0;
     display: none;
-    margin-left: 300px;
     border-radius: 5px;
     width: 100%;
     height: 100%;
