@@ -20,7 +20,7 @@ function valchange() {
     let m = 0;
     const interval = setInterval(function () {
         if (i <= 20) {
-            rev.innerHTML = `₹${i} M`;
+            rev.innerHTML = `₹${i}M`;
             i += 1;
         }
         else if (j <= 540) {
