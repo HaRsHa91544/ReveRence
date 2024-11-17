@@ -2,6 +2,9 @@
     .vid{
         height: 300px;
     }
+    .container{
+        height: 400px;
+    }
     .contr{
         flex-direction: column;
         height: 1300px;
@@ -13,20 +16,17 @@
         border: none;
         border-bottom: 1px solid var(--blue);
     }
-    .contr div:nth-child(5){
-        border-bottom: 1px solid var(--blue);
-    }
     .card-wrapper{
         margin:0 10px 25px;
     }
     .card-list .card-item .card-link{
-        width: 300px;
+        width: 100%;
     }
     .card-wrapper .swiper-slide-button{
         display: none;
     }
     .about{
-        margin: 0;
+        margin-top: 10px;
         flex-direction: column;
         height: 850px;
     }
@@ -40,12 +40,11 @@
     .about div:first-child{
         align-items: center;
         width: 100%;
-        border-bottom: 1px solid var(--blue);
     }
     .about div h2{
         text-align: center;
         font-size: 1.7rem;
-        width: 100%;
+        width: 95%;
         height: auto;
     }
     .about .con2{
@@ -53,7 +52,7 @@
         height: 50%;
     }
     .about div .para{
-        width: 80%;
+        width: 90%;
         font-size: 1.1rem;
         text-align: center;
     }
@@ -67,5 +66,63 @@
     .con2 p{
         font-size: 1rem;
         padding: 12px 25px;
+    }
+    .certi{
+        width: 100%;
+        height: 900px;
+        padding: 10px;
+        padding-bottom: 0;
+    }
+    .certi h1{
+        height: 8%;
+        font-size: 2.3rem;
+    }
+    .certi p{
+        height: 20%;
+        width: 100%;
+        font-size: 1.1rem;
+    }
+    .award-container{
+        height: 72%;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .award-container .award{
+        flex: 0 0 0;
+        height:auto;
+        width: 90%;
+    }
+    .vision{
+        width: 100%;
+        flex-direction: column;
+        height: 700px;
+        justify-content: space-between;
+    }
+    .vpara{
+        padding: 0;
+        height: 65%;
+        width: 100%;
+    }
+    .vision .vpara h2{
+        text-align: center;
+        height: 10%;
+        width: 100%;
+        font-size: 2.3rem;
+    }
+    .vision .vpara p{
+        height: 55%;
+        width: 90%;
+        text-align: center;
+        font-size: 1.1rem;
+    }
+    .vision a{
+        align-self: center;
+    }
+    .vimg{
+        height: 35%;
+        width: 100%;
+    }
+    .vimg img{
+        width: 90%;
     }
 }

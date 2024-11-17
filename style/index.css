@@ -402,6 +402,10 @@ a {
     font-weight: 300;
 }
 
+.vision a{
+    display: flex;
+    align-self: flex-start;
+}
 .vimg {
     /*animation: appear 10s ease-in-out;
     animation-timeline: view();
