@@ -77,3 +77,53 @@
     cursor: pointer;
 }
 
+@media (max-width:500px){
+    .main1{
+        height: 300px;
+    }
+    .main{
+        font-size: 3rem;
+        white-space: nowrap;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: max-content;
+        padding: 0;
+        margin: 0;
+    }
+    .container section{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
+    .container h2 {
+        width: 100%;
+        font-size: 1.3rem;
+    }
+    .container li {
+        width: 100%;
+        text-align: left;
+    }
+    .container p{
+        width: 90%;
+    }
+    section ul a{
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    section .btn1{
+        display: flex;
+        align-self: center;
+    }
+    section:last-child{
+        margin-bottom: 20px;
+    }
+}

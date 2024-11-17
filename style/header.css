@@ -371,10 +371,25 @@ input[type='radio']{
     #menu-btn{
         justify-content: flex-end;
     }
-    #menu:checked + #overlay + .mul {
+    #menu:checked + #menu-btn + #overlay + .mul {
         top: 90px;
     }
-    #menu:checked + #overlay{
+
+    .fa-solid.fa-xmark{
+        animation: fadeInOut 0.5s ease-in-out;
+        display: none;
+    }
+
+    .fa-solid.fa-bars{
+        animation: fadeInOut 0.5s ease-in-out;
+    }
+    #menu:checked + #menu-btn .fa-solid.fa-xmark{
+        display: block;
+    }
+    #menu:checked + #menu-btn .fa-solid.fa-bars{
+        display: none;
+    }    
+    #menu:checked + #menu-btn + #overlay{
         display: block;
     }
     #down1{

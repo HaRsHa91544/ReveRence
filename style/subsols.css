@@ -11,7 +11,7 @@
     font-size: 5.5rem;
     font-weight: 400;
     position: absolute;
-    top: 80%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%,-50%);
     font-family: 'ivymode';
@@ -46,6 +46,37 @@ footer{
     position: relative;
 }
 
-
+#plist{
+    margin-left: 30px;
+}
+@media (max-width:500px){
+    body{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+        height: max-content;
+    }
+    .er{
+        height: 300px;
+    }
+    .main{
+        text-align: center;
+        white-space:unset;
+        font-size: 3rem;
+    }
+    .m2{
+        width: 90%;
+        padding: 0;
+        text-align: center;
+        margin-top: 30px;
+    }
+    #plist{
+        text-align: left;
+        margin-top: 0;
+        margin-left: 30px;
+    }
+}
 
 
