@@ -178,7 +178,7 @@
     }
     .vision{
         width: 100%;
-        height: 3000px;
+        height: 3300px;
     }
     .vis{
         align-items: center;
@@ -190,10 +190,10 @@
         height: 20%;
     }
     .vis:nth-child(2){
-        height: 33%;
+        height: 35%;
     }
     .vis:nth-child(3){
-        height: 30%;
+        height: 28%;
     }
     .vis:nth-child(4){
         height: 17%;
@@ -211,5 +211,4 @@
     span{
         font-size: 1.2rem;
     }
-
  }

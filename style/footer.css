@@ -53,6 +53,11 @@ footer{
     font-weight:300;
     color: white;
 }
+
+.cas .add span{
+    color: white;
+    font-weight: 600;
+}
 .cas .cont a{
     color: white;
 }

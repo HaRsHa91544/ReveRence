@@ -168,6 +168,10 @@
     color: white;
 }
 
+.info div span{
+    font-weight: 600;
+}
+
 @media (max-width:1091px) {
     .main{
         width: 100%;
