@@ -289,8 +289,7 @@ input[type='checkbox']{
 }
 
 .fa-solid.fa-bars,.fa-solid.fa-xmark{
-    color: var(--lblue);
-    font-size: 1.4rem;
+    width: 23px;
 }
 
 input[type='radio']{
