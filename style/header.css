@@ -359,7 +359,9 @@ input[type='radio']{
         width: 80%;
         display: flex;
     }
-
+    header .mul li:nth-child(2) .links{
+        width: 100%;
+    }
     #menu-btn,#menu-btn2{
         display: flex;
         align-items: center;

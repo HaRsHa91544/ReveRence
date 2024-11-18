@@ -1,7 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+header .mul li:nth-child(2) .links{
+    background-color: white;
+    color: var(--blue);
 }
 
 .con {
@@ -10,13 +9,13 @@
     height: 460px;
 }
 
-img {
+.con img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-h1{
+.con h1{
     text-align: center;
     color: rgb(255, 252, 252);
     font-size: 5.5rem;
@@ -34,7 +33,7 @@ h1{
     width: 100%;
 }
 
-h2{
+.med h2,.md h2{
     font-family: 'ivymode';
     color: var(--blue);
     font-size: 2.5rem;
@@ -42,18 +41,17 @@ h2{
     padding-top: 2%;
 }
 
-ul{
-    font-weight: 300;
+.med ul,.md ul{
     font-size: 1.2rem;
     padding-top: 1%;
     padding-left: 20px;
-    list-style-type: none;
+    list-style-type:square;
     padding-bottom: 20px;
 }
 
-li{
+.med li,.md li{
+    font-weight: 300;
     padding: 10px;
-    font-weight: 400;
 }
 
 .med{
@@ -64,4 +62,46 @@ li{
 
 .md{
     padding-left: 60px;
+}
+
+@media (max-width:500px){
+    .con {
+        width: 100%;
+        height: 300px;
+    }
+    .con h1{
+        top: 75%;
+        font-size: 3rem;
+    }
+    .pro{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        margin: 0;
+    }
+    .med,.md{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+    }
+    .med h2,.md h2{
+        font-size: 1.5rem;
+        width: 100%;
+        text-align: center;
+    }
+    .med ul,.md ul{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 0;
+        width: 90%;
+    }
+    .med li,.md li{
+        width: 90%;
+        padding: 5px;
+    }
 }
