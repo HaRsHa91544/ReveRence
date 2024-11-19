@@ -68,7 +68,7 @@ body {
     display: flex;
     align-items: center;
     font-weight: 400;
-    font-size: 2.3rem;
+    font-size: clamp(1rem, 5vw, 2.4rem);
     color: var(--lblue);
     writing-mode:vertical-rl;
     opacity: 0.4;
@@ -158,7 +158,6 @@ body {
 .hidden:checked + .box h2{
     text-align: center;
     transition: none;
-    font-size: 2rem;
     opacity: 1;
     display: inline;
     height: 10%;
@@ -182,7 +181,7 @@ body {
 }
 
 .hidden:checked + .box ul{
-    font-size: 1.2rem;
+    font-size: clamp(0.8rem, 3vw, 1.1rem);
     display: block;
     padding: 30px 0px 30px 0px;
 }
@@ -224,5 +223,4 @@ input[type="radio"]:focus {
 label{
     -webkit-tap-highlight-color: transparent;
 }
-
 

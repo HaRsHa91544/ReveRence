@@ -25,7 +25,7 @@ footer{
 
 .details .cas{
     width: 100%;
-    height: 50%;
+    height: 60%;
     display: flex;
     align-items: center;
     justify-content:space-around;
@@ -40,7 +40,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50%;
+    height: 40%;
     width: 100%;
     font-size: 1.2rem;
 }
@@ -49,6 +49,7 @@ footer{
     font-size: 1.1rem;
 }
 .cas .add p{
+    width: 70%;
     font-size: 1.15rem;
     font-weight:300;
     color: white;
@@ -135,7 +136,7 @@ footer{
     color: var(--lblue);
 }
 
-@media (max-width:500px){
+@media (max-width:800px){
     footer{
         width: 100%;
         flex-direction: column;

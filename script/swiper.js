@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
 new Swiper('.card-wrapper', {
     // Optional parameters
     loop: true,
-    spaceBetween:30,
+    spaceBetween:60,
     // If we need pagination
     pagination: {
         el: '.swiper-pagination',
