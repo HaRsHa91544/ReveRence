@@ -403,6 +403,7 @@ input[type='radio']{
         height: 11%;
     }
     #home-label,#sol-label{
+        top: 38%;
         position: absolute;
         right: 6%;
         width: 4%;
