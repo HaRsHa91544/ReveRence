@@ -16,6 +16,10 @@
 }
 
 html,body{
+    scrollbar-width:thin;
+    scrollbar-color: var(--blue) var(--lblue);
+    scrollbar-arrow-color: var(--blue);
+    scroll-behavior: smooth;
     max-width: 100%;
     width: 100%;
 }
