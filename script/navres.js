@@ -26,7 +26,6 @@ homebtn.onclick=function(){
         h=0;
         homebtn.style.top='38%';
         drop1.style.display='none';
-        solbtn.style.top='38%';
         hdown.style.transform='rotate(0deg)';
     }
 }

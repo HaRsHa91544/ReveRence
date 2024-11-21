@@ -11,24 +11,24 @@ footer{
     align-items: center;
     justify-content:space-evenly;
     flex-direction: column;
-    width: 30%;
+    width: 20%;
 }
 
 .details{
     height: 100%;
-    width: 70%;
+    width: 80%;
     display: flex;
-    justify-content:stretch;
+    justify-content:space-between;
     flex-direction: column;
     align-items: center;
 }
 
 .details .cas{
     width: 100%;
-    height: 60%;
+    height: 45%;
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content:space-between;
     flex-direction: row;
 }
 
@@ -49,16 +49,13 @@ footer{
     font-size: 1.1rem;
 }
 .cas .add p{
-    width: 70%;
-    font-size: 1.15rem;
+    width: 90%;
+    font-size: 1.2rem;
     font-weight:300;
     color: white;
 }
 
-.cas .add span{
-    color: white;
-    font-weight: 600;
-}
+
 .cas .cont a{
     color: white;
 }
@@ -66,10 +63,16 @@ footer{
     display: flex;
     flex-direction: column;
     height: 100%;
-    flex: 1 1 0;
 }
 
-.cont a{
+.cas .cont{
+    width: 28%;
+}
+.cas .add{
+    width: 23%;
+}
+
+.cont a,.credits a{
     position: relative;
     transition: all 0.3s ease-in-out;
     font-size: 1.2rem;
@@ -77,14 +80,13 @@ footer{
     display: inline-block;
     width: fit-content;
     text-decoration: none;
-    margin-bottom: 3px;
 }
 
-.cont a::after{
+.cont a::after,.credits a::after{
     content: '';
     display: block;
     position: absolute;
-    height: 1.5px;
+    height: 1.2px;
     background-color: var(--lblue);
     width: 0;
     transition: width 0.3s ease-in-out;
@@ -92,7 +94,7 @@ footer{
     left: 0; 
 }
 
-.cont a:hover::after {
+.cont a:hover::after,.credits a:hover::after{
     width: 100%; 
 }
 
@@ -108,7 +110,7 @@ footer{
     display: flex;
     flex-direction: column;
     height: 100%;
-    margin-left: 40px;
+    width: 26%;
 }
 
 .flinks{
@@ -136,6 +138,28 @@ footer{
     color: var(--lblue);
 }
 
+.credits{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: 1px solid var(--lblue);
+}
+
+.credits a,.credits p{
+    color:white;
+    font-size: 1.05rem;
+}
+
+.credits h3{
+    color: white;
+    font-size: 1.05rem;
+}
+
+.credits h3 a{
+    font-size: 1.4rem;
+}
 @media (max-width:800px){
     footer{
         width: 100%;
