@@ -229,6 +229,9 @@
         width: 90%;
         height: 250px;
     }
+    #icons{
+        justify-content:space-evenly;
+    }
     .fa-solid.fa-phone,.fa-solid.fa-link,.fa-solid.fa-location-dot{
         box-shadow: 1px 1px 5px 3px rgba(21, 21, 21, 0.219);
         top: 0%;
