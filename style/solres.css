@@ -50,7 +50,7 @@
         flex-direction: row;
         justify-content: space-around;
         border-radius: 15px;
-        width: 85%;
+        width: 90%;
         margin-bottom: 10px;
         height: 13%;
         background-color: var(--blue);
@@ -146,7 +146,7 @@
         cursor: default;
         background-color: white;
         border: 2px solid var(--blue);
-        width: 85%;
+        width: 90%;
         height: 60%;
     }
     
