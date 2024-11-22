@@ -13,11 +13,11 @@
     
     
     .arrow{
+        opacity: 1;
         object-fit: cover;
         transform: rotate(270deg);
         transition: all 0.3s ease-out;
         width: 15%;
-        opacity: 0.4;
     }
     
     #simg{
@@ -73,7 +73,7 @@
         color: var(--lblue);
         padding: 0;
         writing-mode:unset;
-        opacity: 0.4;
+        opacity: 1;
         transform: rotate(0deg);
     }
     
@@ -97,7 +97,7 @@
         align-items: center;
         justify-content: center;
         transition: all 0.4s ease-in-out;
-        opacity: 0.4;
+        opacity: 1;
         width: 30%;
         text-align: center;
         height: 100%;

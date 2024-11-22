@@ -89,6 +89,14 @@
     cursor: pointer;
 }
 
+.qlink{
+    display: flex;
+    width: fit-content;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    align-self: flex-start;
+}
+
 @media (max-width:500px){
     .main1{
         height: 300px;
@@ -136,6 +144,11 @@
         align-self: center;
     }
     section:last-child{
+        margin-bottom: 20px;
+    }
+    .qlink{
+        margin-left: 0;
+        align-self: center;
         margin-bottom: 20px;
     }
 }

@@ -1,3 +1,4 @@
+
 .vid {
     margin-top: 0;
     display: flex;
@@ -381,7 +382,7 @@ a {
     justify-content: space-around;
     align-items: center;
     height: 100%;
-    width: 50%;
+    width: 60%;
 }
 
 .vision h2 {
@@ -407,6 +408,7 @@ a {
     align-self: flex-start;
 }
 .vimg {
+    padding: 30px;
     /*animation: appear 10s ease-in-out;
     animation-timeline: view();
     animation-range:entry 0% cover 30%;*/
@@ -415,10 +417,12 @@ a {
     align-items: center;
     justify-content: center;
     height: 100%;
-    width: 50%;
+    width: 40%;
 }
 
 .vimg img {
+    width: 100%;
+    object-fit: cover;
     box-shadow: -1px -1px 10px 4px rgba(0, 0, 0, 0.10);
     border-radius: 7px;
 }
@@ -478,13 +482,14 @@ a {
     font-weight: 300;
 }
 
-.loc img {
+.loc div img {
+    width: 62%;
+    object-fit: cover;
+    padding-right: 30px;
     animation-delay: 10s;
     /*animation: appear 10s ease-in-out;
     animation-timeline: view();
     animation-range:entry 0% cover 30%;*/
-    width: 65%;
-    margin-right: 40px;
 }
 
 .blog {

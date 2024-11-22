@@ -14,8 +14,9 @@
 .head h2{
     font-family: 'ivymode';
     margin-top: 0px;
-    font-size: 2rem;
-    font-weight: 350;
+    font-size: 2.3rem;
+    font-weight: 400;
+    letter-spacing: 3px;
 }
 
 .contact {
@@ -102,16 +103,22 @@
     color: var(--blue);
 }
 
-.info .icons{
+#icons{
     box-shadow: none;
     display: flex;
-    width: 80%;
+    width: 100%;
     height: 25%;
     flex-direction: row;
-    justify-content:space-evenly;
+    justify-content:center;
     align-items: center;
 }
 
+#icons a{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: 6px;
+}
 .info i{
     color: rgb(83, 83, 83);
     transition: all 0.3s ease;
@@ -153,6 +160,10 @@
     color: hsl(210, 94%, 41%);
 }
 
+.fa-brands.fa-whatsapp:hover{
+    font-size: 2.8rem;
+    color: #05b94d;
+}
 .main{
     width: 100%;
     height:460px;
@@ -173,7 +184,7 @@
     font-weight: 600;
 }
 
-@media (max-width:1091px) {
+@media (max-width:800px) {
     .main{
         width: 100%;
         height: 300px;
@@ -197,6 +208,7 @@
     }
     .head h2{
         width: 100%;
+        line-height: 40px;
         font-size: 1.8rem;
         text-align: center;
     }
@@ -218,6 +230,7 @@
         height: 250px;
     }
     .fa-solid.fa-phone,.fa-solid.fa-link,.fa-solid.fa-location-dot{
+        box-shadow: 1px 1px 5px 3px rgba(21, 21, 21, 0.219);
         top: 0%;
         left: 50%;
         transform: translate(-50%,-50%);
