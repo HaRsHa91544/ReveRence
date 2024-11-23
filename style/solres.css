@@ -35,6 +35,8 @@
     }
     
     .sol{
+        padding: 0;
+        margin: 0;
         width: 100%;
         height: 700px;
         display: flex;
@@ -47,10 +49,12 @@
     .box{
         display: flex;
         align-items: center;
+        align-self: center;
         flex-direction: row;
         justify-content: space-around;
         border-radius: 15px;
         width: 90%;
+        margin: 0;
         margin-bottom: 10px;
         height: 13%;
         background-color: var(--blue);
