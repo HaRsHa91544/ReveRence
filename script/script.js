@@ -36,7 +36,7 @@ window.onscroll = function() {
             card.style.opacity = '1';
         });
     }
-    if(scrollValue>2000){
+    if(scrollValue>1800){
         vbtn.style.opacity='1';
         vbtn.style.animation='opadiv 1.2s both';
         visp.style.opacity='1';
@@ -46,7 +46,7 @@ window.onscroll = function() {
         vimg.style.opacity='1';
         vimg.style.animation='servani 1.2s both';
     }
-    if(scrollValue>2500){
+    if(scrollValue>2300){
         lbtn.style.opacity='1';
         lbtn.style.animation='slideRight 1.2s both';
         lisp.style.opacity='1';
@@ -58,7 +58,7 @@ window.onscroll = function() {
         btn1.style.opacity='1';
         btn1.style.animation='opadiv 1.2s both';
     }
-    if(scrollValue>3100){
+    if(scrollValue>2800){
         blh1.style.opacity='1';
         blh1.style.animation='opadiv 1.2s both';
         blin.style.opacity='1';
