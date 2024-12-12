@@ -1,0 +1,76 @@
+.sol-container {
+    position: absolute;
+    height: 800px;
+    width: 100%;
+    top: 64%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sols {
+    height: 11%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.sols label {
+    font-size: 1.3rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 20%;
+    height: 60%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    color: var(--blue);
+    background-color: var(--lblue);
+    transition: all 0.3s ease-in-out;
+}
+
+#sols-1:checked+label[for="sols-1"],
+#sols-2:checked+label[for="sols-2"],
+#sols-3:checked+label[for="sols-3"],
+#sols-4:checked+label[for="sols-4"] {
+    box-shadow: 10px 10px 25px #00000040,-10px -10px 25px #00000040;
+    background-color: var(--blue);
+    color: var(--lblue);
+}
+
+label:hover {
+    background-color: var(--blue);
+    color: var(--lblue);
+}
+
+.sols-body {
+    position: relative;
+    background-color:var(--blue);
+    backdrop-filter: blur(100px);
+    color: var(--lblue);
+    padding:40px 0px;
+    border-bottom: 1px solid var(--lblue);
+    height: 89%;
+    width: 100%;
+    z-index: 1;
+}
+
+.sols-body #content-2,
+.sols-body #content-3,
+.sols-body #content-4 {
+    display: none;
+}
+
+.water-mark{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    width: 400px;
+    z-index: -100;
+    opacity: 0.2;
+}
+
