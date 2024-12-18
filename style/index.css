@@ -35,7 +35,7 @@
 .vid {
     margin-top: 0;
     display: flex;
-    height: 500px;
+    height: 80%;
     width: 100%;
     align-items: center;
     flex-direction: column;
@@ -43,11 +43,25 @@
     overflow: hidden;
 }
 
-.vid video {
+.vid img {
+    filter: blur(3px);
+    position: relative;
     transition: all 0.5s ease-out;
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.vid .brand{
+    position: absolute;
+    z-index: 1000;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    color: white;
 }
 
 
