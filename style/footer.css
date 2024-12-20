@@ -6,12 +6,13 @@ footer{
 }
 
 .logof{
-    height: 100%;
+    height: 85.2%;
     display: flex;
     align-items: center;
     justify-content:space-evenly;
     flex-direction: column;
     width: 20%;
+    border-bottom: 1px solid var(--lblue);
 }
 
 .details{
