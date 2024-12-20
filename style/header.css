@@ -162,6 +162,7 @@ header .mul .links:active{
 }
 
 .fa-solid.fa-chevron-down{
+    display: none;
     transition: all 0.4s ease-in-out;
     padding-left: 4px;
     font-size: 0.9rem;
@@ -202,11 +203,9 @@ a {
     position: absolute;
     top: 80px;
     width: 170px;
-    background-color: white;
     border-radius: 1px;
     z-index: 1000;
     transition: all 0.3s ease-in-out;
-    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.134);
 }
 
 #dd2{
@@ -224,7 +223,7 @@ a {
     width: 100%;
     padding: 13px 9px;
     border-radius: 1px;
-    color: var(--blue);
+    color: white;
 }
 
 #dd a:hover,#dd1 a:hover,#dd2 a:hover{
@@ -392,6 +391,7 @@ input[type='radio']{
         height: 13%;
     }
     label .fa-solid.fa-chevron-down{
+        display: block;
         padding: 0;
     }
     #dd,#dd1{
