@@ -240,7 +240,6 @@ a {
     width: 100%;
 }
 #dd a:active,#dd1 a:active,#dd2 a:active{
-    background-color: #002731;
     color: white;
 }
 
