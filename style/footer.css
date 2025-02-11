@@ -1,235 +1,109 @@
-footer{
-    display: flex;
-    background-color: var(--blue);
-    height: 350px;
+footer {
     width: 100%;
-}
-
-.logof{
-    height: 85.3%;
+    height: 16vw;
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
-    flex-direction: column;
-    width: 20%;
-    border-bottom: 1px solid var(--lblue);
+    justify-content: space-around;
+    background-color: var(--brown);
 }
 
-.details{
+.footer-logo {
+    width: 30%;
     height: 100%;
-    width: 80%;
     display: flex;
-    justify-content:space-between;
+    align-items: center;
+    justify-content: space-around;
     flex-direction: column;
-    align-items: center;
 }
 
-.details .cas{
+.annam-logo {
     width: 100%;
-    height: 45%;
+    height: 80%;
+}
+
+.copywriteinfo {
+    width: 100%;
+    height: 20%;
+}
+
+.footer-information {
+    width: 70%;
+    height: 100%;
     display: flex;
     align-items: center;
-    justify-content:space-between;
-    flex-direction: row;
+    justify-content: space-around;
 }
 
-.details #dpara p{
-    font-size: 1.18rem;
-    color: white;
-    font-weight: 300;
+.footer-modes {
+    width: 22%;
+    height: 70%;
 }
-.details #dpara{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 40%;
+
+.footer-users,
+.legal-information,
+.ourcompany-information,
+.socialmedia-information {
     width: 100%;
-    font-size: 1.2rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.footer-users h3,
+.legal-information h3,
+.ourcompany-information h3,
+.socialmedia-information h3 {
+    height: 20%;
+    font-size: 1.4rem;
+    color: var(--peach);
 }
 
-.cas p{   
+.footer-users h4,
+.legal-information h4,
+.ourcompany-information h4,
+.socialmedia-information h4{
+    height: 19%;
+}
+
+.footer-users h4 a,
+.legal-information h4 a,
+.ourcompany-information h4 a{
+    color:var(--white);
     font-size: 1.1rem;
-}
-.cas .add p{
-    width: 90%;
-    font-size: 1.2rem;
-    font-weight:300;
-    color: white;
-}
-
-
-.cas .cont a{
-    color: white;
-}
-.cas .cont,.cas .add,.cas .social{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-
-.cas .cont{
-    width: 28%;
-}
-.cas .add{
-    width: 20%;
-}
-
-.cont a,.credits a{
     position: relative;
-    transition: all 0.3s ease-in-out;
-    font-size: 1.2rem;
-    font-weight: 300;
-    display: inline-block;
-    width: fit-content;
-    text-decoration: none;
 }
 
-.cont a::after,.credits a::after{
-    content: '';
-    display: block;
+.footer-users h4 a::after,
+.legal-information h4 a::after,
+.ourcompany-information h4 a::after{
     position: absolute;
-    height: 1.2px;
-    background-color: var(--lblue);
-    width: 0;
-    transition: width 0.3s ease-in-out;
-    bottom: 0;
-    left: 0; 
+    content: '';
+    width: 0%;
+    height: 5%;
+    top: 100%;
+    left: 0%;
+    background-color:var(--lpeach);
+    transition: all .5s ease-in-out
 }
 
-.cont a:hover::after,.credits a:hover::after{
-    width: 100%; 
-}
-
-.cas h4{
-    font-family: 'Ivymode';
-    margin-bottom: 5px;
-    color: var(--lblue);
-    font-size: 1.4rem;
-    font-weight: 600;
-}
-
-.social{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 29%;
-}
-
-.flinks{
-    display: flex;
-    justify-content:stretch;
-    align-items: center;
-    margin-top: 10px;
-}
-
-.social i{
-    color:rgba(255, 255, 255, 0.5);
-    font-size: 1.9rem;
-    width: 55px;
-    height: 55px;
-    transition: all 0.3s ease-in-out;
-}
-
-.social a{
-    width: fit-content;
-}
-
-.fa-brands.fa-facebook:hover,.fa-brands.fa-instagram:hover,.fa-brands.fa-x-twitter:hover,.fa-brands.fa-youtube:hover,
-.fa-brands.fa-linkedin:hover,.fa-brands.fa-whatsapp:hover{
-    font-size: 2.5rem;
-    color: var(--lblue);
-}
-
-.credits{
-    display: flex;
+.footer-users h4 a:hover::after,
+.legal-information h4 a:hover::after,
+.ourcompany-information h4 a:hover::after{
     width: 100%;
-    height: 15%;
+}
+.social-modes{
+    width: 60%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-evenly;
-    border-top: 1px solid var(--lblue);
 }
-
-.credits a,.credits p{
-    color:white;
-    font-size: 1.05rem;
+.social-modes .social{
+    width: 22%;
+    height: 57%;
+    opacity: 0.4;
+    cursor: pointer;
 }
-
-.credits h3{
-    color: white;
-    font-size: 1.05rem;
-}
-
-.credits h3 a{
-    font-size: 1.4rem;
-}
-@media (max-width:800px){
-    footer{
-        width: 100%;
-        flex-direction: column;
-        height: 850px;
-        align-items: center;
-        justify-content: space-around;
-    }
-    .logof{
-        width: 100%;
-        height: 30%;
-    }
-    .details{
-        justify-content: space-around;
-        width: 100%;
-        height: 70%;
-    }
-    .details #dpara{
-        display: none;
-        width: 95%;
-        font-size: 1.1rem;
-        text-align: center;
-    }
-    .details .cas{
-        height: 80%;
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-    .cas .cont,.cas .add,.cas .social{
-        flex:1 1 auto;
-    }
-    .cas .cont{
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        text-align: center;
-        height: 30%;
-    }
-    .cas .cont a{
-        text-align: center;
-    }
-    .cas .add{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        height: 30%;
-    }
-    .cas .add p{
-        width: 80%;
-        font-size: 1.1rem;
-    }
-    .cas .social{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        text-align: center;
-        height: 20%;
-        margin: 0;
-    }
-    .credits{
-        text-align: center;
-        width: 100%;
-        height: 20%;
-        flex-direction: column;
-    }
+.social:hover{
+    opacity: 1;
+    transform: scale(1.2);   
 }
