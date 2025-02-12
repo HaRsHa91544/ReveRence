@@ -40,7 +40,7 @@ span{
     font-size: 5.5rem;
     position: absolute;
     white-space: nowrap;
-    top: 50%;
+    top: 68%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
