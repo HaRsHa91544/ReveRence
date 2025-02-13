@@ -78,7 +78,7 @@ function valchange() {
     let l = 0;
     let m = 0;
     const interval = setInterval(function () {
-        if (i <= 20) {
+        if (i <= 18) {
             rev.innerHTML = `₹${i}M`;
             i += 1;
         }
@@ -94,9 +94,9 @@ function valchange() {
             del.innerHTML = `+${l}`;
             l += 1000;
         }
-        else if (m <= 145) {
+        else if (m <= 144) {
             phcc.innerHTML = `+${m}`;
-            m += 5;
+            m += 4;
         }
         else {
             clearInterval(interval);
