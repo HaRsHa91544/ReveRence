@@ -15,8 +15,19 @@ const lbtn=document.querySelector('.loc div img');
 const btn1=document.getElementById('btn1');
 const blh1=document.querySelector('.blog h1');
 const blin=document.querySelector('.blog .inner');
+const navbar = document.getElementById('navbar');
+
+
 window.onscroll = function() {
     var scrollValue = window.scrollY;
+    if(scrollValue>80){
+        navbar.style.backgroundColor='var(--blue)';
+        navbar.style.position='fixed';
+    }
+    if(scrollValue<=60){
+        navbar.style.backgroundColor='transparent';
+        navbar.style.position='absolute';
+    }
     if(scrollValue>150 && !che){
         che=true;
         valchange();
@@ -103,4 +114,5 @@ function valchange() {
         }
     }, 30);
 };
+
 

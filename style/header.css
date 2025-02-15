@@ -63,11 +63,13 @@ body{
     max-width: 100%;
     width: 100%;
     height: 80px;
-    z-index: 9;
+    z-index: 99999;
     display: flex;
     flex-direction: column;
     justify-content: center;
     box-sizing: border-box;
+    height: 6vw;
+    transition: all 0.3s ease-in-out;
 }
 
 #navbar *{
@@ -96,7 +98,7 @@ header{
     justify-content: space-between;
     width: inherit;
     max-width: inherit;
-    height: 6vw;
+    height: 100%;
     z-index: 1;
     transition: all 0.5s ease;
 }

@@ -70,6 +70,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    background-color: var(--llblue);
 }
 
 .contr img {
@@ -108,6 +109,26 @@
     font-weight: 300;
 }
 
+.raja-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+    width: 90%;
+    background-color: var(--lblue);
+}
+
+.raja-container h2{
+    font-family: 'Ivymode';
+    color: var(--blue);
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.raja-container>p{
+    font-size: 1.18rem;
+    font-weight: 300;
+}
 
 .container {
     height: 480px;
@@ -132,7 +153,7 @@
 }
 
 .card-list .card-item .card-link {
-    background-color: white;
+    background-color: rgb(255, 245, 245);
     width: 400px;
     display: block;
     padding: 18px;
