@@ -130,7 +130,7 @@
     font-weight: 300;
 }
 
-.container {
+.container{
     height: 480px;
     display: flex;
     justify-content: center;
@@ -153,7 +153,7 @@
 }
 
 .card-list .card-item .card-link {
-    background-color: rgb(255, 245, 245);
+    background-color: rgb(255, 255, 255);
     width: 400px;
     display: block;
     padding: 18px;
