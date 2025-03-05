@@ -143,7 +143,7 @@ header .mul .links{
     font-family:'avenir';
     display: flex;
     align-items: center;
-    color: white;
+    color: var(--lblue);
     width: 30%;
     padding: 7px 10px;
     font-size: 1.4rem;
@@ -156,6 +156,8 @@ header .mul .links{
     border-bottom: 1px solid rgba(255, 251, 245, 0.4);
 }
 
+
+
 header .mul li:hover .fa-solid.fa-chevron-down{
     padding-right: 4px;
     padding-left: 0;
@@ -164,7 +166,8 @@ header .mul li:hover .fa-solid.fa-chevron-down{
 
 
 header .mul .links:hover{
-    color:white;
+    opacity: 1;
+    border-bottom: 1px solid var(--lblue);
 }
 
 header .mul .links:active{
@@ -219,6 +222,7 @@ a {
 }
 
 #dd a,#dd1 a{
+    opacity: 0.7;
     position: relative;
     text-decoration: none;
     font-size: 1.3rem;
@@ -241,6 +245,7 @@ a {
 }
 
 #dd a:hover,#dd1 a:hover{
+    opacity: 1;
     font-size: 1.3rem;
 }
 #dd a:hover::after,#dd1 a:hover::after{
