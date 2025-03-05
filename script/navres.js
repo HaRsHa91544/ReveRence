@@ -6,20 +6,20 @@ const hdown = document.getElementById('hdown2');
 const sdown = document.getElementById('sdown2');
 const menu = document.getElementById('menu-btn');
 var h=0,s=0,m=0;
-menu.onclick=function(){
-    if(m==0){
-        m=1;
-    }
-    else{
-        m=0;
-        homebtn.style.top='38%';
-        drop1.style.display='none';
-        hdown.style.transform='rotate(0deg)';
-        drop2.style.display='none';
-        solbtn.style.top='38%';
-        sdown.style.transform='rotate(0deg)';
-    }
-}
+// menu.onclick=function(){
+//     if(m==0){
+//         m=1;
+//     }
+//     else{
+//         m=0;
+//         homebtn.style.top='38%';
+//         drop1.style.display='none';
+//         hdown.style.transform='rotate(0deg)';
+//         drop2.style.display='none';
+//         solbtn.style.top='38%';
+//         sdown.style.transform='rotate(0deg)';
+//     }
+// }
 homebtn.onclick=function hf(){
     if(h==0&&s==0){
         h=1;
