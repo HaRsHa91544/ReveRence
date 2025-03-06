@@ -44,20 +44,6 @@ body{
     -webkit-tap-highlight-color: transparent;
 }
 
-#llloo{
-    transition: all 0.2s ease;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80%;
-    width: 40%;
-}
-
-#llloo img{
-    width: 40%;
-    height: 80%;
-}
-
 #navbar{
     position: absolute;
     top: 0px;
@@ -77,15 +63,30 @@ body{
     box-sizing: border-box;
 }
 
-.logo{
+#llloo{
+    transition: all 0.2s ease;
     display: flex;
     align-items: center;
-    width: 35%;
+    justify-content: center;
+    height: 70%;
+    width: 18%;
+}
+
+#llloo img{
+    width: 100%;
+    height: 100%;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    width: 75%;
     height: 50%;
 }
 
 .logo img{
-    width: 100%;
+    width: 90%;
     height: 100%;
 }
 
@@ -105,6 +106,7 @@ header{
 
 header .mul{
     position: fixed;
+    padding-top: 15%;
     top: 0;
     height: 100%;
     width:100%;
@@ -113,21 +115,21 @@ header .mul{
     visibility: hidden;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     list-style-type: none;
     font-weight: 500;
     font-size: 0.95rem;
-    background-color: rgba(0, 75, 85);
+    background: linear-gradient(var(--blue) 50% ,#a39888);
     transition: all 0.4s ease-in-out;
 }
 
 header #logomaa{
     align-items: center;
     display: flex;
+    justify-content: center;
     width: 20%;
     height: 100%;
-    justify-content: center;
     z-index: 100;
+    margin-left: 3%;
 }
 
 header .mul li{
