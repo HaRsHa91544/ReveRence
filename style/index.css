@@ -716,3 +716,80 @@ a {
         display: flex;
     }
 }
+
+.Expert-commitee-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    height: 45vh;
+    background-color: var(--lblue);
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.Expert-commitee-list{
+    display: flex;
+    width: max-content;
+    gap: 40px;
+    height: 70%;
+    animation: infi-go 25s linear infinite;
+}
+
+@keyframes infi-go {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.Expert-commitee-container:hover .Expert-commitee-list {
+    animation-play-state: paused;
+}
+
+.dr-card{
+    background-color: white;
+    min-width: 380px;
+    height: 100%;
+    position: relative;
+    border-radius: 16px;
+    box-shadow: 0 0 4px 2px rgba(128, 128, 128, 0.384);
+}
+
+.imgg-container{
+    background-color: white;
+    position: absolute;
+    width: 30%;
+    height: 47%;
+    object-fit: cover;
+    border-radius: 100px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -20%;
+    left: 8%;
+    padding: 5px;
+}
+
+.imgg-container img{
+    width: 80%;
+    bottom: 20%;
+}
+
+.Expert-commitee-list .para{
+    padding-top: 20%;
+    padding-left: 5%;
+}
+
+.Expert-commitee-list .name{
+    padding-top: 2%;
+    padding-left: 5%;
+}
+
+.Expert-commitee-list .name > h3{
+    color: var(--blue);
+    font-weight: 500;
+}
