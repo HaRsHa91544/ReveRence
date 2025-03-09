@@ -722,18 +722,32 @@ a {
     width: 100%;
     align-items: center;
     justify-content: flex-start;
-    height: 45vh;
+    height: 50vh;
     background-color: var(--lblue);
     padding-top: 20px;
     overflow: hidden;
+}
+
+.experts-head{
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.experts-head h2{
+    color: var(--blue);
+    font-size: 2.5rem;
+    font-weight: 300;
+    font-family: 'Ivymode';
 }
 
 .Expert-commitee-list{
     display: flex;
     width: max-content;
     gap: 40px;
-    height: 70%;
-    animation: infi-go 25s linear infinite;
+    height: 60%;
+    animation: infi-go 5s linear infinite;
 }
 
 @keyframes infi-go {
@@ -741,11 +755,11 @@ a {
         transform: translateX(0);
     }
     to {
-        transform: translateX(-100%);
+        transform: translateX(-60%);
     }
 }
 
-.Expert-commitee-container:hover .Expert-commitee-list {
+.Expert-commitee-list:hover  {
     animation-play-state: paused;
 }
 
@@ -759,19 +773,18 @@ a {
 }
 
 .imgg-container{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     position: absolute;
-    width: 30%;
-    height: 47%;
+    width: 25%;
+    height: 40%;
     object-fit: cover;
-    border-radius: 100px;
-    padding: 3px;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     top: -20%;
     left: 8%;
-    padding: 5px;
+    padding: 0px;
 }
 
 .imgg-container img{
