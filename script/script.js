@@ -115,4 +115,8 @@ function valchange() {
     }, 30);
 };
 
-
+document.addEventListener("DOMContentLoaded", function () {
+    const list = document.querySelector(".Expert-commitee-list");
+    const duplicate = list.cloneNode(true); // Clone list
+    list.parentNode.appendChild(duplicate); // Append it
+});
