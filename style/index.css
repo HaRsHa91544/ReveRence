@@ -775,7 +775,7 @@ a {
 .imgg-container{
     background-color: rgb(255, 255, 255);
     position: absolute;
-    width: 25%;
+    width: 23%;
     height: 40%;
     object-fit: cover;
     border-radius: 50%;
@@ -784,11 +784,12 @@ a {
     justify-content: center;
     top: -20%;
     left: 8%;
-    padding: 0px;
+    aspect-ratio: 1/1;
 }
 
 .imgg-container img{
-    width: 80%;
+    width: 90%;
+    height: 90%;
     bottom: 20%;
 }
 
