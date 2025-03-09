@@ -726,6 +726,7 @@ a {
     background-color: var(--lblue);
     padding-top: 20px;
     overflow: hidden;
+    position: relative;
 }
 
 .experts-head{
@@ -744,10 +745,9 @@ a {
 
 .Expert-commitee-list{
     display: flex;
-    width: max-content;
     gap: 40px;
     height: 60%;
-    animation: infi-go 5s linear infinite;
+    animation: infi-go 15s linear infinite;
 }
 
 @keyframes infi-go {
@@ -755,7 +755,7 @@ a {
         transform: translateX(0);
     }
     to {
-        transform: translateX(-60%);
+        transform: translateX(-80%);
     }
 }
 
