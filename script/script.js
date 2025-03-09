@@ -115,8 +115,9 @@ function valchange() {
     }, 30);
 };
 
-document.addEventListener("DOMContentLoaded", function () {
-    const list = document.querySelector(".Expert-commitee-list");
-    const duplicate = list.cloneNode(true); // Clone list
-    list.parentNode.appendChild(duplicate); // Append it
+const track = document.querySelector('.Expert-commitee-list');
+const slides = document.querySelectorAll('.dr-card');
+slides.forEach(slide => {
+  let clone = slide.cloneNode(true);
+  track.appendChild(clone);
 });
